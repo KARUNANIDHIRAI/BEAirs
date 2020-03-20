@@ -34,7 +34,6 @@ public class ReadConfig {
 	}
 	
 	public String getFirefoxDrvPath() {
-		System.out.println("firefoxDriverPath not found");
 		String URL = pro.getProperty("firefoxDriverPath");
 		return URL;		
 	}	

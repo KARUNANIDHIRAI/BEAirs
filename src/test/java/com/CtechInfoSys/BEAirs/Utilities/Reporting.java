@@ -24,22 +24,27 @@ public class Reporting extends TestListenerAdapter{
 		public ExtentTest logger;
 		
 		public void onStart(ITestContext testContest) {
-			String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
-			String repName= "Test-Report" + timeStamp +".html";
-		
-			htmlReport = new ExtentHtmlReporter(System.getProperty("user.dir")+"/test-output/" +repName);	
-			htmlReport.loadXMLConfig(System.getProperty("user.dir")+"extent-config.xml");
-		    System.out.println("htmlReport:" +htmlReport); 
-			extent  = new ExtentReports();	
-			extent.attachReporter(htmlReport);
-			extent.setSystemInfo("Host Name","Localhost");
-			extent.setSystemInfo("Environment", "QA");
-			extent.setSystemInfo("User", "K N RAI");
+			try {
+				String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
+				String repName= "Test-Report" + timeStamp +".html";
 			
-			htmlReport.config().setDocumentTitle("AIRS IBE");
-			htmlReport.config().setReportName("Functional Test");
-			htmlReport.config().setTheme(Theme.STANDARD);
-			
+				htmlReport = new ExtentHtmlReporter(System.getProperty("user.dir")+"/test-output/" +repName);	
+			    System.out.println("htmlReport:" +htmlReport); 
+				htmlReport.loadXMLConfig(System.getProperty("user.dir")+"/extent-config.xml");
+				extent  = new ExtentReports();	
+				extent.attachReporter(htmlReport);
+				extent.setSystemInfo("Host Name","Localhost");
+				extent.setSystemInfo("Environment", "QA");
+				extent.setSystemInfo("User", "K N RAI");
+				
+				htmlReport.config().setDocumentTitle("AIRS IBE");
+				htmlReport.config().setReportName("Functional Test");
+				htmlReport.config().setTheme(Theme.STANDARD);
+				
+			}
+			catch (Exception e){
+				System.out.println(e);
+			}
 		}
 
 		public void onTestSuccess(ITestResult tr) {

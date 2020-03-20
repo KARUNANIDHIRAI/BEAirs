@@ -1,0 +1,1022 @@
+2020-03-16 17:09:42,285 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-16 17:09:47,584 +0530 [main] INFO  (BaseClass.java:58) -    firefox :Driver Load Successfully
+2020-03-16 17:10:10,079 +0530 [main] INFO  (BaseClass.java:64) -    URL is opened successfully :http://www.facebook.com
+2020-03-16 17:10:10,083 +0530 [main] INFO  (LoginPageTCs.java:75) - String [][] getData() : getting data from excel sheet
+2020-03-16 17:10:10,674 +0530 [main] INFO  (LoginPageTCs.java:79) - Total Row in Datasheet5: Total Colom in Datasheet :2
+2020-03-16 17:10:10,967 +0530 [main] INFO  (LoginPageTCs.java:87) - String [][] getData() : Test data upload successfully
+2020-03-16 17:10:10,981 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()
+2020-03-16 17:10:11,098 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :null
+2020-03-16 17:10:11,142 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :null
+2020-03-16 17:10:16,410 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-16 17:10:19,421 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-16 17:10:19,445 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()
+2020-03-16 17:10:19,553 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :KARUNANIDHIRAI@YAHOO.COM
+2020-03-16 17:10:19,589 +0530 [main] INFO  (LoginPageTCs.java:68) - LoginTestCase2(String UID, String PWD)Error : -->org.openqa.selenium.ElementNotInteractableException: Element <input id="pass" class="inputtext login_form_input_box" name="pass" type="password"> is not reachable by keyboard
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3QC3HN03', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 19044, moz:profile: C:\Users\KN RAI\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2ec5c5fb-dd0b-4418-86f5-09e3e0c8c1e0
+2020-03-16 17:10:19,593 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()
+2020-03-16 17:10:19,701 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :karunanidhirai@yahoo.com
+2020-03-16 17:10:19,725 +0530 [main] INFO  (LoginPageTCs.java:68) - LoginTestCase2(String UID, String PWD)Error : -->org.openqa.selenium.ElementNotInteractableException: Element <input id="pass" class="inputtext login_form_input_box" name="pass" type="password"> is not reachable by keyboard
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3QC3HN03', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 19044, moz:profile: C:\Users\KN RAI\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2ec5c5fb-dd0b-4418-86f5-09e3e0c8c1e0
+2020-03-16 17:10:19,730 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()
+2020-03-16 17:10:19,788 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :KARUNANIDHIRAI
+2020-03-16 17:10:19,813 +0530 [main] INFO  (LoginPageTCs.java:68) - LoginTestCase2(String UID, String PWD)Error : -->org.openqa.selenium.ElementNotInteractableException: Element <input id="pass" class="inputtext login_form_input_box" name="pass" type="password"> is not reachable by keyboard
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3QC3HN03', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 19044, moz:profile: C:\Users\KN RAI\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2ec5c5fb-dd0b-4418-86f5-09e3e0c8c1e0
+2020-03-16 17:10:19,819 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()
+2020-03-16 17:10:19,884 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :KARUNANIDHIRAI
+2020-03-16 17:10:19,905 +0530 [main] INFO  (LoginPageTCs.java:68) - LoginTestCase2(String UID, String PWD)Error : -->org.openqa.selenium.ElementNotInteractableException: Element <input id="pass" class="inputtext login_form_input_box" name="pass" type="password"> is not reachable by keyboard
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3QC3HN03', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 19044, moz:profile: C:\Users\KN RAI\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2ec5c5fb-dd0b-4418-86f5-09e3e0c8c1e0
+2020-03-16 17:10:21,387 +0530 [main] INFO  (BaseClass.java:83) -    Quit : Driver Loaded Successfully
+2020-03-16 17:17:56,675 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-16 17:18:01,998 +0530 [main] INFO  (BaseClass.java:58) -    firefox :Driver Load Successfully
+2020-03-16 17:18:30,039 +0530 [main] INFO  (BaseClass.java:64) -    URL is opened successfully :http://www.facebook.com
+2020-03-16 17:18:30,046 +0530 [main] INFO  (LoginPageTCs.java:75) - String [][] getData() : getting data from excel sheet
+2020-03-16 17:18:30,702 +0530 [main] INFO  (LoginPageTCs.java:79) - Total Row in Datasheet2: Total Colom in Datasheet :2
+2020-03-16 17:18:30,803 +0530 [main] INFO  (LoginPageTCs.java:87) - String [][] getData() : Test data upload successfully
+2020-03-16 17:18:30,817 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()
+2020-03-16 17:18:30,931 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :null
+2020-03-16 17:18:30,986 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :null
+2020-03-16 17:18:36,263 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-16 17:18:39,284 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-16 17:18:39,311 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()
+2020-03-16 17:18:39,436 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :KARUNANIDHIRAI@YAHOO.COM
+2020-03-16 17:18:39,479 +0530 [main] INFO  (LoginPageTCs.java:68) - LoginTestCase2(String UID, String PWD)Error : -->org.openqa.selenium.ElementNotInteractableException: Element <input id="pass" class="inputtext login_form_input_box" name="pass" type="password"> is not reachable by keyboard
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3QC3HN03', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 20712, moz:profile: C:\Users\KN RAI\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 9f2af167-bad4-4f7b-8f17-1ea6754cdc6f
+2020-03-16 17:18:40,913 +0530 [main] INFO  (BaseClass.java:83) -    Quit : Driver Loaded Successfully
+2020-03-16 18:02:57,559 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-16 18:03:02,072 +0530 [main] INFO  (BaseClass.java:58) -    firefox :Driver Load Successfully
+2020-03-16 18:03:27,846 +0530 [main] INFO  (BaseClass.java:64) -    URL is opened successfully :http://www.facebook.com
+2020-03-16 18:03:27,855 +0530 [main] INFO  (LoginPageTCs.java:75) - String [][] getData() : getting data from excel sheet
+2020-03-16 18:03:28,393 +0530 [main] INFO  (LoginPageTCs.java:79) - Total Row in Datasheet2: Total Colom in Datasheet :2
+2020-03-16 18:03:28,465 +0530 [main] INFO  (LoginPageTCs.java:87) - String [][] getData() : Test data upload successfully
+2020-03-16 18:03:28,474 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()
+2020-03-16 18:03:28,571 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :null
+2020-03-16 18:03:28,621 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :null
+2020-03-16 18:03:33,893 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-16 18:03:36,923 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-16 18:03:36,958 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()
+2020-03-16 18:03:37,045 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :KARUNANIDHIRAI@YAHOO.COM
+2020-03-16 18:03:37,077 +0530 [main] INFO  (LoginPageTCs.java:68) - LoginTestCase2(String UID, String PWD)Error : -->org.openqa.selenium.ElementNotInteractableException: Element <input id="pass" class="inputtext login_form_input_box" name="pass" type="password"> is not reachable by keyboard
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3QC3HN03', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 7344, moz:profile: C:\Users\KN RAI\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2f6486f6-7ee0-4058-98e6-38f242b26e4e
+2020-03-16 18:03:38,329 +0530 [main] INFO  (BaseClass.java:83) -    Quit : Driver Loaded Successfully
+2020-03-16 18:32:47,697 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-16 18:32:52,244 +0530 [main] INFO  (BaseClass.java:58) -    firefox :Driver Load Successfully
+2020-03-16 18:34:17,683 +0530 [main] INFO  (BaseClass.java:64) -    URL is opened successfully :http://www.facebook.com
+2020-03-16 18:34:17,693 +0530 [main] INFO  (LoginPageTCs.java:75) - String [][] getData() : getting data from excel sheet
+2020-03-16 18:34:18,216 +0530 [main] INFO  (LoginPageTCs.java:79) - Total Row in Datasheet2: Total Colom in Datasheet :2
+2020-03-16 18:34:18,286 +0530 [main] INFO  (LoginPageTCs.java:87) - String [][] getData() : Test data upload successfully
+2020-03-16 18:34:18,295 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()
+2020-03-16 18:34:18,367 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :null
+2020-03-16 18:34:18,397 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :null
+2020-03-16 18:34:23,636 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-16 18:34:26,665 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-16 18:34:26,700 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()
+2020-03-16 18:34:26,740 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :KARUNANIDHIRAI@YAHOO.COM
+2020-03-16 18:34:26,769 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :$Mamata12708$
+2020-03-16 18:34:27,006 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-16 18:34:30,030 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-16 18:34:31,079 +0530 [main] INFO  (BaseClass.java:83) -    Quit : Driver Loaded Successfully
+2020-03-16 18:37:33,915 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-16 18:37:38,442 +0530 [main] INFO  (BaseClass.java:58) -    firefox :Driver Load Successfully
+2020-03-16 18:38:17,796 +0530 [main] INFO  (BaseClass.java:64) -    URL is opened successfully :http://www.facebook.com
+2020-03-16 18:38:17,802 +0530 [main] INFO  (LoginPageTCs.java:75) - String [][] getData() : getting data from excel sheet
+2020-03-16 18:38:18,324 +0530 [main] INFO  (LoginPageTCs.java:79) - Total Row in Datasheet2: Total Colom in Datasheet :2
+2020-03-16 18:38:18,401 +0530 [main] INFO  (LoginPageTCs.java:87) - String [][] getData() : Test data upload successfully
+2020-03-16 18:38:18,410 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()
+2020-03-16 18:38:18,501 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :null
+2020-03-16 18:38:18,547 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :null
+2020-03-16 18:38:23,816 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-16 18:38:26,844 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-16 18:38:26,880 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()
+2020-03-16 18:38:26,987 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :KARUNANIDHIRAI@YAHOO.COM
+2020-03-16 18:38:27,022 +0530 [main] INFO  (LoginPageTCs.java:68) - LoginTestCase2(String UID, String PWD)Error : -->org.openqa.selenium.ElementNotInteractableException: Element <input id="pass" class="inputtext login_form_input_box" name="pass" type="password"> is not reachable by keyboard
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3QC3HN03', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 13816, moz:profile: C:\Users\KN RAI\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 74a9fe5e-8c20-4e76-aafa-ffb802992bfc
+2020-03-16 18:38:28,390 +0530 [main] INFO  (BaseClass.java:83) -    Quit : Driver Loaded Successfully
+2020-03-16 18:58:34,319 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-16 18:58:38,844 +0530 [main] INFO  (BaseClass.java:58) -    firefox :Driver Load Successfully
+2020-03-16 18:59:03,730 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://www.facebook.com
+2020-03-16 18:59:03,743 +0530 [main] INFO  (LoginPageTCs.java:75) - String [][] getData() : getting data from excel sheet
+2020-03-16 18:59:04,273 +0530 [main] INFO  (LoginPageTCs.java:79) - Total Row in Datasheet2: Total Colom in Datasheet :2
+2020-03-16 18:59:04,359 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:KARUNANIDHIRAI@YAHOO.COM : password-->$Mamata12708$
+2020-03-16 18:59:04,359 +0530 [main] INFO  (LoginPageTCs.java:90) - String [][] getData() : Test data upload successfully
+2020-03-16 18:59:04,371 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()
+2020-03-16 18:59:14,459 +0530 [main] INFO  (LoginPageTCs.java:68) - LoginTestCase2(String UID, String PWD)Error : -->org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name='UserID']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3QC3HN03', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 8440, moz:profile: C:\Users\KN RAI\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f8fa2347-0adb-445a-a63c-587da7bfb8a5
+*** Element info: {Using=name, value=UserID}
+2020-03-16 18:59:14,489 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()
+2020-03-16 18:59:24,510 +0530 [main] INFO  (LoginPageTCs.java:68) - LoginTestCase2(String UID, String PWD)Error : -->org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name='UserID']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3QC3HN03', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 8440, moz:profile: C:\Users\KN RAI\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f8fa2347-0adb-445a-a63c-587da7bfb8a5
+*** Element info: {Using=name, value=UserID}
+2020-03-16 18:59:25,605 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-16 19:26:21,280 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-16 19:26:25,843 +0530 [main] INFO  (BaseClass.java:58) -    firefox :Driver Load Successfully
+2020-03-16 19:26:47,633 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://www.facebook.com
+2020-03-16 19:26:47,639 +0530 [main] INFO  (LoginPageTCs.java:75) - String [][] getData() : getting data from excel sheet
+2020-03-16 19:26:48,192 +0530 [main] INFO  (LoginPageTCs.java:79) - Total Row in Datasheet2: Total Colom in Datasheet :2
+2020-03-16 19:26:48,268 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:KARUNANIDHIRAI@YAHOO.COM : password-->$Mamata12708$
+2020-03-16 19:26:48,268 +0530 [main] INFO  (LoginPageTCs.java:94) - String [][] getData() : getting Excel data sheet Error : java.lang.ArrayIndexOutOfBoundsException: 2
+2020-03-16 19:26:49,681 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-16 19:30:45,880 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-16 19:30:50,403 +0530 [main] INFO  (BaseClass.java:58) -    firefox :Driver Load Successfully
+2020-03-16 19:31:10,977 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://www.facebook.com
+2020-03-16 19:31:10,985 +0530 [main] INFO  (LoginPageTCs.java:75) - String [][] getData() : getting data from excel sheet
+2020-03-16 19:31:11,508 +0530 [main] INFO  (LoginPageTCs.java:79) - Total Row in Datasheet2: Total Colom in Datasheet :2
+2020-03-16 19:31:11,583 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:null : password-->null
+2020-03-16 19:31:11,584 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:$Mamata12708$ : password-->$Mamata12708$
+2020-03-16 19:31:11,584 +0530 [main] INFO  (LoginPageTCs.java:90) - String [][] getData() : Test data upload successfully
+2020-03-16 19:31:11,593 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :null-->Password :null
+2020-03-16 19:31:21,669 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :null
+2020-03-16 19:31:31,684 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :null
+2020-03-16 19:31:41,710 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-16 19:31:44,732 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-16 19:31:44,766 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :KARUNANIDHIRAI@YAHOO.COM-->Password :$Mamata12708$
+2020-03-16 19:31:54,786 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :KARUNANIDHIRAI@YAHOO.COM
+2020-03-16 19:32:04,810 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :$Mamata12708$
+2020-03-16 19:32:14,841 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-16 19:32:17,858 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-16 19:32:18,925 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-16 19:40:17,254 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-16 19:40:21,780 +0530 [main] INFO  (BaseClass.java:58) -    firefox :Driver Load Successfully
+2020-03-16 19:41:22,569 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://www.facebook.com
+2020-03-16 19:41:22,582 +0530 [main] INFO  (LoginPageTCs.java:75) - String [][] getData() : getting data from excel sheet
+2020-03-16 19:41:23,110 +0530 [main] INFO  (LoginPageTCs.java:79) - Total Row in Datasheet2: Total Colom in Datasheet :2
+2020-03-16 19:41:23,179 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:KARUNANIDHIRAI@YAHOO.COM : password-->KARUNANIDHIRAI@YAHOO.COM
+2020-03-16 19:41:23,180 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:null : password-->null
+2020-03-16 19:41:23,180 +0530 [main] INFO  (LoginPageTCs.java:90) - String [][] getData() : Test data upload successfully
+2020-03-16 19:41:23,191 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :KARUNANIDHIRAI@YAHOO.COM-->Password :$Mamata12708$
+2020-03-16 19:41:33,271 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :KARUNANIDHIRAI@YAHOO.COM
+2020-03-16 19:41:43,289 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :$Mamata12708$
+2020-03-16 19:41:53,342 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-16 19:41:56,369 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-16 19:41:56,411 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :null-->Password :null
+2020-03-16 19:42:06,429 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :null
+2020-03-16 19:42:16,448 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :null
+2020-03-16 19:42:26,473 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-16 19:42:29,496 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-16 19:42:30,149 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-16 19:46:40,182 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-16 19:46:44,715 +0530 [main] INFO  (BaseClass.java:58) -    firefox :Driver Load Successfully
+2020-03-16 19:47:06,334 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://www.facebook.com
+2020-03-16 19:47:06,347 +0530 [main] INFO  (LoginPageTCs.java:75) - String [][] getData() : getting data from excel sheet
+2020-03-16 19:47:06,889 +0530 [main] INFO  (LoginPageTCs.java:79) - Total Row in Datasheet2: Total Colom in Datasheet :2
+2020-03-16 19:47:07,022 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:KARUNANIDHIRAI@YAHOO.COM : password-->KARUNANIDHIRAI@YAHOO.COM
+2020-03-16 19:47:07,022 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:$Mamata12708$ : password-->$Mamata12708$
+2020-03-16 19:47:07,023 +0530 [main] INFO  (LoginPageTCs.java:90) - String [][] getData() : Test data upload successfully
+2020-03-16 19:47:07,033 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :KARUNANIDHIRAI@YAHOO.COM-->Password :$Mamata12708$
+2020-03-16 19:47:17,110 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :KARUNANIDHIRAI@YAHOO.COM
+2020-03-16 19:47:27,134 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :$Mamata12708$
+2020-03-16 19:47:37,157 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-16 19:47:40,175 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-16 19:47:40,218 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :karunanidhirai@yahoo.com-->Password :$Mamata12708$
+2020-03-16 19:47:50,236 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :karunanidhirai@yahoo.com
+2020-03-16 19:48:00,253 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :$Mamata12708$
+2020-03-16 19:48:10,285 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-16 19:48:13,315 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-16 19:48:14,375 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-16 19:50:26,497 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-16 19:50:30,524 +0530 [main] INFO  (BaseClass.java:58) -    firefox :Driver Load Successfully
+2020-03-16 19:50:52,270 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://www.facebook.com
+2020-03-16 19:50:52,280 +0530 [main] INFO  (LoginPageTCs.java:75) - String [][] getData() : getting data from excel sheet
+2020-03-16 19:50:52,793 +0530 [main] INFO  (LoginPageTCs.java:79) - Total Row in Datasheet2: Total Colom in Datasheet :2
+2020-03-16 19:50:52,922 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:KARUNANIDHIRAI@YAHOO.COM : password-->KARUNANIDHIRAI@YAHOO.COM
+2020-03-16 19:50:52,922 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:$Mamata12708$ : password-->$Mamata12708$
+2020-03-16 19:50:52,923 +0530 [main] INFO  (LoginPageTCs.java:90) - String [][] getData() : Test data upload successfully
+2020-03-16 19:50:52,934 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :KARUNANIDHIRAI@YAHOO.COM-->Password :$Mamata12708$
+2020-03-16 19:51:03,021 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :KARUNANIDHIRAI@YAHOO.COM
+2020-03-16 19:51:13,045 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :$Mamata12708$
+2020-03-16 19:51:23,067 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-16 19:51:26,085 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-16 19:51:26,127 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :karunanidhirai@yahoo.com-->Password :$Mamata12708$
+2020-03-16 19:51:36,141 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :karunanidhirai@yahoo.com
+2020-03-16 19:51:46,165 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :$Mamata12708$
+2020-03-16 19:51:56,191 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-16 19:51:59,214 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-16 19:52:00,421 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-16 19:56:17,527 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-16 19:56:22,108 +0530 [main] INFO  (BaseClass.java:58) -    firefox :Driver Load Successfully
+2020-03-16 19:56:41,756 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://www.facebook.com
+2020-03-16 19:56:41,767 +0530 [main] INFO  (LoginPageTCs.java:75) - String [][] getData() : getting data from excel sheet
+2020-03-16 19:56:42,323 +0530 [main] INFO  (LoginPageTCs.java:79) - Total Row in Datasheet2: Total Colom in Datasheet :2
+2020-03-16 19:56:42,450 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:KARUNANIDHIRAI@YAHOO.COM : password-->$Mamata12708$
+2020-03-16 19:56:42,450 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:karunanidhirai@yahoo.com : password-->$Mamata12708$
+2020-03-16 19:56:42,450 +0530 [main] INFO  (LoginPageTCs.java:90) - String [][] getData() : Test data upload successfully
+2020-03-16 19:56:42,460 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :KARUNANIDHIRAI@YAHOO.COM-->Password :$Mamata12708$
+2020-03-16 19:56:52,530 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :KARUNANIDHIRAI@YAHOO.COM
+2020-03-16 19:57:02,551 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :$Mamata12708$
+2020-03-16 19:57:12,570 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-16 19:57:15,581 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-16 19:57:15,608 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :karunanidhirai@yahoo.com-->Password :$Mamata12708$
+2020-03-16 19:57:25,623 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :karunanidhirai@yahoo.com
+2020-03-16 19:57:35,649 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :$Mamata12708$
+2020-03-16 19:57:45,682 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-16 19:57:48,701 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-16 19:57:49,760 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-16 20:34:44,461 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-16 20:34:49,004 +0530 [main] INFO  (BaseClass.java:58) -    firefox :Driver Load Successfully
+2020-03-16 20:35:20,831 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://www.facebook.com
+2020-03-16 20:35:20,841 +0530 [main] INFO  (LoginPageTCs.java:75) - String [][] getData() : getting data from excel sheet
+2020-03-16 20:35:21,368 +0530 [main] INFO  (LoginPageTCs.java:79) - Total Row in Datasheet2: Total Colom in Datasheet :2
+2020-03-16 20:35:21,490 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:KARUNANIDHIRAI@YAHOO.COM : password-->$Mamata12708$
+2020-03-16 20:35:21,490 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:karunanidhirai@yahoo.com : password-->$Mamata12708$
+2020-03-16 20:35:21,491 +0530 [main] INFO  (LoginPageTCs.java:90) - String [][] getData() : Test data upload successfully
+2020-03-16 20:35:21,504 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :KARUNANIDHIRAI@YAHOO.COM-->Password :$Mamata12708$
+2020-03-16 20:35:21,642 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :KARUNANIDHIRAI@YAHOO.COM
+2020-03-16 20:35:21,706 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :$Mamata12708$
+2020-03-16 20:35:31,776 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-16 20:35:34,795 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-16 20:35:34,832 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :karunanidhirai@yahoo.com-->Password :$Mamata12708$
+2020-03-16 20:35:34,919 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :karunanidhirai@yahoo.com
+2020-03-16 20:35:34,977 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :$Mamata12708$
+2020-03-16 20:35:45,003 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-16 20:35:48,025 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-16 20:35:49,054 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-16 20:43:26,778 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-16 20:43:31,873 +0530 [main] INFO  (BaseClass.java:58) -    firefox :Driver Load Successfully
+2020-03-16 20:44:00,720 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://www.facebook.com
+2020-03-16 20:44:00,723 +0530 [main] INFO  (LoginPageTCs.java:75) - String [][] getData() : getting data from excel sheet
+2020-03-16 20:44:01,355 +0530 [main] INFO  (LoginPageTCs.java:79) - Total Row in Datasheet2: Total Colom in Datasheet :2
+2020-03-16 20:44:01,509 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:KARUNANIDHIRAI@YAHOO.COM : password-->$Mamata12708$
+2020-03-16 20:44:01,509 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:karunanidhirai@yahoo.com : password-->$Mamata12708$
+2020-03-16 20:44:01,510 +0530 [main] INFO  (LoginPageTCs.java:90) - String [][] getData() : Test data upload successfully
+2020-03-16 20:44:01,522 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :KARUNANIDHIRAI@YAHOO.COM-->Password :$Mamata12708$
+2020-03-16 20:44:01,692 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :KARUNANIDHIRAI@YAHOO.COM
+2020-03-16 20:44:01,762 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :$Mamata12708$
+2020-03-16 20:44:11,827 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-16 20:44:14,844 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-16 20:44:14,883 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :karunanidhirai@yahoo.com-->Password :$Mamata12708$
+2020-03-16 20:44:14,963 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :karunanidhirai@yahoo.com
+2020-03-16 20:44:15,016 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :$Mamata12708$
+2020-03-16 20:44:25,029 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-16 20:44:28,045 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-16 20:44:29,128 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-16 20:45:37,017 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-16 20:45:41,572 +0530 [main] INFO  (BaseClass.java:58) -    firefox :Driver Load Successfully
+2020-03-16 20:46:12,629 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://www.facebook.com
+2020-03-16 20:46:12,642 +0530 [main] INFO  (LoginPageTCs.java:75) - String [][] getData() : getting data from excel sheet
+2020-03-16 20:46:13,178 +0530 [main] INFO  (LoginPageTCs.java:79) - Total Row in Datasheet2: Total Colom in Datasheet :2
+2020-03-16 20:46:13,318 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:KARUNANIDHIRAI@YAHOO.COM : password-->$Mamata12708$
+2020-03-16 20:46:13,318 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:karunanidhirai@yahoo.com : password-->$Mamata12708$
+2020-03-16 20:46:13,318 +0530 [main] INFO  (LoginPageTCs.java:90) - String [][] getData() : Test data upload successfully
+2020-03-16 20:46:13,329 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :KARUNANIDHIRAI@YAHOO.COM-->Password :$Mamata12708$
+2020-03-16 20:46:13,470 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :KARUNANIDHIRAI@YAHOO.COM
+2020-03-16 20:46:13,544 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :$Mamata12708$
+2020-03-16 20:46:23,613 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-16 20:46:26,630 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-16 20:46:26,670 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :karunanidhirai@yahoo.com-->Password :$Mamata12708$
+2020-03-16 20:46:26,754 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :karunanidhirai@yahoo.com
+2020-03-16 20:46:26,809 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :$Mamata12708$
+2020-03-16 20:46:36,827 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-16 20:46:39,846 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-16 20:46:41,412 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-16 20:49:03,576 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-16 20:49:08,132 +0530 [main] INFO  (BaseClass.java:58) -    firefox :Driver Load Successfully
+2020-03-16 20:49:29,453 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://www.facebook.com
+2020-03-16 20:49:29,462 +0530 [main] INFO  (LoginPageTCs.java:75) - String [][] getData() : getting data from excel sheet
+2020-03-16 20:49:30,003 +0530 [main] INFO  (LoginPageTCs.java:79) - Total Row in Datasheet2: Total Colom in Datasheet :2
+2020-03-16 20:49:30,144 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:KARUNANIDHIRAI@YAHOO.COM : password-->$Mamata12708$
+2020-03-16 20:49:30,145 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:karunanidhirai@yahoo.com : password-->$Mamata12708$
+2020-03-16 20:49:30,146 +0530 [main] INFO  (LoginPageTCs.java:90) - String [][] getData() : Test data upload successfully
+2020-03-16 20:49:30,155 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :KARUNANIDHIRAI@YAHOO.COM-->Password :$Mamata12708$
+2020-03-16 20:49:30,302 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :KARUNANIDHIRAI@YAHOO.COM
+2020-03-16 20:49:30,366 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :$Mamata12708$
+2020-03-16 20:49:30,652 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-16 20:49:33,678 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-16 20:49:33,712 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :karunanidhirai@yahoo.com-->Password :$Mamata12708$
+2020-03-16 20:49:33,803 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :karunanidhirai@yahoo.com
+2020-03-16 20:49:33,871 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :$Mamata12708$
+2020-03-16 20:49:34,112 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-16 20:49:37,129 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-16 20:49:38,454 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-18 18:06:23,339 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-18 18:06:29,123 +0530 [main] INFO  (BaseClass.java:58) -    firefox :Driver Load Successfully
+2020-03-18 18:07:33,452 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://demo.guru99.com/v4/index.php
+2020-03-18 18:07:33,467 +0530 [main] INFO  (LoginPageTCs.java:75) - String [][] getData() : getting data from excel sheet
+2020-03-18 18:07:34,120 +0530 [main] INFO  (LoginPageTCs.java:79) - Total Row in Datasheet3: Total Colom in Datasheet :2
+2020-03-18 18:07:34,306 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:mngr250914 : password-->rUzYdap
+2020-03-18 18:07:34,306 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:KARUNANIDHIRAI@YAHOO.COM : password-->$Mamata12708$
+2020-03-18 18:07:34,307 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:karunanidhirai@yahoo.com : password-->$Mamata12708$
+2020-03-18 18:07:34,307 +0530 [main] INFO  (LoginPageTCs.java:90) - String [][] getData() : Test data upload successfully
+2020-03-18 18:07:34,317 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :mngr250914-->Password :rUzYdap
+2020-03-18 18:07:44,405 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :mngr250914
+2020-03-18 18:07:54,424 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :rUzYdap
+2020-03-18 18:08:04,439 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-18 18:08:07,461 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-18 18:08:07,495 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :KARUNANIDHIRAI@YAHOO.COM-->Password :$Mamata12708$
+2020-03-18 18:08:17,520 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :KARUNANIDHIRAI@YAHOO.COM
+2020-03-18 18:08:27,536 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :$Mamata12708$
+2020-03-18 18:08:37,553 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-18 18:08:40,565 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-18 18:08:40,571 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :karunanidhirai@yahoo.com-->Password :$Mamata12708$
+2020-03-18 18:08:50,593 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :karunanidhirai@yahoo.com
+2020-03-18 18:09:00,623 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :$Mamata12708$
+2020-03-18 18:09:10,639 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-18 18:09:13,666 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-18 18:09:14,605 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-18 18:12:42,902 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-18 18:12:47,448 +0530 [main] INFO  (BaseClass.java:58) -    firefox :Driver Load Successfully
+2020-03-18 18:14:20,749 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://demo.guru99.com/v4/index.php
+2020-03-18 18:14:20,765 +0530 [main] INFO  (LoginPageTCs.java:75) - String [][] getData() : getting data from excel sheet
+2020-03-18 18:14:21,308 +0530 [main] INFO  (LoginPageTCs.java:79) - Total Row in Datasheet3: Total Colom in Datasheet :2
+2020-03-18 18:14:21,521 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:mngr250914 : password-->rUzYdap
+2020-03-18 18:14:21,521 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:KARUNANIDHIRAI@YAHOO.COM : password-->$Mamata12708$
+2020-03-18 18:14:21,521 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:karunanidhirai@yahoo.com : password-->$Mamata12708$
+2020-03-18 18:14:21,521 +0530 [main] INFO  (LoginPageTCs.java:90) - String [][] getData() : Test data upload successfully
+2020-03-18 18:14:21,530 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :mngr250914-->Password :rUzYdap
+2020-03-18 18:14:31,605 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :mngr250914
+2020-03-18 18:14:41,630 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :rUzYdap
+2020-03-18 18:14:51,649 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-18 18:14:54,665 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-18 18:14:54,690 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :KARUNANIDHIRAI@YAHOO.COM-->Password :$Mamata12708$
+2020-03-18 18:15:04,705 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :KARUNANIDHIRAI@YAHOO.COM
+2020-03-18 18:15:14,730 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :$Mamata12708$
+2020-03-18 18:15:24,752 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-18 18:15:27,779 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-18 18:15:27,786 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :karunanidhirai@yahoo.com-->Password :$Mamata12708$
+2020-03-18 18:15:37,798 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :karunanidhirai@yahoo.com
+2020-03-18 18:15:47,814 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :$Mamata12708$
+2020-03-18 18:15:57,834 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-18 18:16:00,842 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-18 18:16:01,670 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-18 18:40:12,802 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-18 18:40:17,395 +0530 [main] INFO  (BaseClass.java:58) -    firefox :Driver Load Successfully
+2020-03-18 18:41:46,243 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://demo.guru99.com/v4/index.php
+2020-03-18 18:41:46,250 +0530 [main] INFO  (LoginPageTCs.java:75) - String [][] getData() : getting data from excel sheet
+2020-03-18 18:41:46,865 +0530 [main] INFO  (LoginPageTCs.java:79) - Total Row in Datasheet3: Total Colom in Datasheet :2
+2020-03-18 18:41:47,092 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:mngr250914 : password-->rUzYdap
+2020-03-18 18:41:47,093 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:KARUNANIDHIRAI@YAHOO.COM : password-->$Mamata12708$
+2020-03-18 18:41:47,095 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:karunanidhirai@yahoo.com : password-->$Mamata12708$
+2020-03-18 18:41:47,096 +0530 [main] INFO  (LoginPageTCs.java:90) - String [][] getData() : Test data upload successfully
+2020-03-18 18:41:47,104 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :mngr250914-->Password :rUzYdap
+2020-03-18 18:41:47,164 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :mngr250914
+2020-03-18 18:41:47,234 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :rUzYdap
+2020-03-18 18:41:47,471 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-18 18:41:50,496 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-18 18:41:50,528 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :KARUNANIDHIRAI@YAHOO.COM-->Password :$Mamata12708$
+2020-03-18 18:41:50,541 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :KARUNANIDHIRAI@YAHOO.COM
+2020-03-18 18:41:50,584 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :$Mamata12708$
+2020-03-18 18:41:50,820 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-18 18:41:53,839 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-18 18:41:53,854 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :karunanidhirai@yahoo.com-->Password :$Mamata12708$
+2020-03-18 18:41:53,868 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :karunanidhirai@yahoo.com
+2020-03-18 18:41:53,906 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :$Mamata12708$
+2020-03-18 18:41:54,136 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-18 18:41:57,152 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-18 18:41:58,121 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-18 18:43:01,469 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-18 18:43:06,218 +0530 [main] INFO  (BaseClass.java:58) -    firefox :Driver Load Successfully
+2020-03-18 18:44:54,484 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://demo.guru99.com/v4/index.php
+2020-03-18 18:44:54,490 +0530 [main] INFO  (LoginPageTCs.java:75) - String [][] getData() : getting data from excel sheet
+2020-03-18 18:44:55,052 +0530 [main] INFO  (LoginPageTCs.java:79) - Total Row in Datasheet3: Total Colom in Datasheet :2
+2020-03-18 18:44:55,240 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:mngr250914 : password-->rUzYdap
+2020-03-18 18:44:55,241 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:KARUNANIDHIRAI@YAHOO.COM : password-->$Mamata12708$
+2020-03-18 18:44:55,241 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:karunanidhirai@yahoo.com : password-->$Mamata12708$
+2020-03-18 18:44:55,241 +0530 [main] INFO  (LoginPageTCs.java:90) - String [][] getData() : Test data upload successfully
+2020-03-18 18:44:55,254 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :mngr250914-->Password :rUzYdap
+2020-03-18 18:44:55,305 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :mngr250914
+2020-03-18 18:44:55,351 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :rUzYdap
+2020-03-18 18:44:55,592 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-18 18:44:58,612 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-18 18:44:58,646 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :KARUNANIDHIRAI@YAHOO.COM-->Password :$Mamata12708$
+2020-03-18 18:44:58,657 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :KARUNANIDHIRAI@YAHOO.COM
+2020-03-18 18:44:58,696 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :$Mamata12708$
+2020-03-18 18:44:58,931 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-18 18:45:01,937 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-18 18:45:01,941 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :karunanidhirai@yahoo.com-->Password :$Mamata12708$
+2020-03-18 18:45:01,950 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :karunanidhirai@yahoo.com
+2020-03-18 18:45:01,988 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :$Mamata12708$
+2020-03-18 18:45:02,214 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-18 18:45:05,233 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-18 18:45:06,417 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-18 18:55:16,474 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-18 18:55:21,047 +0530 [main] INFO  (BaseClass.java:58) -    firefox :Driver Load Successfully
+2020-03-18 18:57:16,202 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://demo.guru99.com/v4/index.php
+2020-03-18 18:57:16,210 +0530 [main] INFO  (LoginPageTCs.java:75) - String [][] getData() : getting data from excel sheet
+2020-03-18 18:57:16,747 +0530 [main] INFO  (LoginPageTCs.java:79) - Total Row in Datasheet3: Total Colom in Datasheet :2
+2020-03-18 18:57:16,940 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:mngr250914 : password-->rUzYdap
+2020-03-18 18:57:16,940 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:KARUNANIDHIRAI@YAHOO.COM : password-->$Mamata12708$
+2020-03-18 18:57:16,941 +0530 [main] INFO  (LoginPageTCs.java:88) - user name:karunanidhirai@yahoo.com : password-->$Mamata12708$
+2020-03-18 18:57:16,941 +0530 [main] INFO  (LoginPageTCs.java:90) - String [][] getData() : Test data upload successfully
+2020-03-18 18:57:16,954 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :mngr250914-->Password :rUzYdap
+2020-03-18 18:57:17,036 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :mngr250914
+2020-03-18 18:57:17,079 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :rUzYdap
+2020-03-18 18:57:17,317 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-18 18:57:20,330 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-18 18:57:20,351 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :KARUNANIDHIRAI@YAHOO.COM-->Password :$Mamata12708$
+2020-03-18 18:57:20,401 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :KARUNANIDHIRAI@YAHOO.COM
+2020-03-18 18:57:20,489 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :$Mamata12708$
+2020-03-18 18:57:20,722 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-18 18:57:23,740 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-18 18:57:23,750 +0530 [main] INFO  (LoginPageTCs.java:46) - loginTestCase2()user id :karunanidhirai@yahoo.com-->Password :$Mamata12708$
+2020-03-18 18:57:23,818 +0530 [main] INFO  (LoginPageTCs.java:49) - User Id Entered :karunanidhirai@yahoo.com
+2020-03-18 18:57:23,852 +0530 [main] INFO  (LoginPageTCs.java:52) - Password Entered :$Mamata12708$
+2020-03-18 18:57:24,083 +0530 [main] INFO  (LoginPageTCs.java:54) - Submit button clicked
+2020-03-18 18:57:27,091 +0530 [main] INFO  (LoginPageTCs.java:59) - Login TC2 passed: :
+2020-03-18 18:57:28,205 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-19 10:07:14,007 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-19 10:07:20,775 +0530 [main] INFO  (BaseClass.java:58) -    firefox :Driver Load Successfully
+2020-03-19 10:08:06,771 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://demo.guru99.com/v4/index.php
+2020-03-19 10:08:06,791 +0530 [main] INFO  (LoginPageTCs.java:97) - String [][] getData() : getting data from excel sheet
+2020-03-19 10:08:08,000 +0530 [main] INFO  (LoginPageTCs.java:101) - Total Row in Datasheet3: Total Colom in Datasheet :2
+2020-03-19 10:08:08,352 +0530 [main] INFO  (LoginPageTCs.java:110) - user name:mngr250914 : password-->rUzYdap
+2020-03-19 10:08:08,356 +0530 [main] INFO  (LoginPageTCs.java:110) - user name:KARUNANIDHIRAI@YAHOO.COM : password-->$Mamata12708$
+2020-03-19 10:08:08,361 +0530 [main] INFO  (LoginPageTCs.java:110) - user name:karunanidhirai@yahoo.com : password-->$Mamata12708$
+2020-03-19 10:08:08,362 +0530 [main] INFO  (LoginPageTCs.java:112) - String [][] getData() : Test data upload successfully
+2020-03-19 10:08:08,389 +0530 [main] INFO  (LoginPageTCs.java:50) - loginTestCase2()user id :mngr250914-->Password :rUzYdap
+2020-03-19 10:08:08,539 +0530 [main] INFO  (LoginPageTCs.java:54) - User Id Entered :mngr250914
+2020-03-19 10:08:08,547 +0530 [main] INFO  (LoginPageTCs.java:55) - page Titel :Guru99 Bank Home Page
+2020-03-19 10:08:08,606 +0530 [main] INFO  (LoginPageTCs.java:57) - Password Entered :rUzYdap
+2020-03-19 10:08:08,868 +0530 [main] INFO  (LoginPageTCs.java:59) - Submit button clicked
+2020-03-19 10:08:11,966 +0530 [main] INFO  (LoginPageTCs.java:67) - page Titel :Guru99 Bank Home Page
+2020-03-19 10:08:11,966 +0530 [main] INFO  (LoginPageTCs.java:68) - page Titel X:Guru99 Bank Home Page
+2020-03-19 10:08:25,025 +0530 [main] INFO  (LoginPageTCs.java:90) - LoginTestCase2(String UID, String PWD)Error : -->org.openqa.selenium.NoAlertPresentException: 
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3QC3HN03', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 11488, moz:profile: C:\Users\KN RAI\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ed2f907c-1287-40b8-8541-0c038c01df35
+2020-03-19 10:08:25,049 +0530 [main] INFO  (LoginPageTCs.java:50) - loginTestCase2()user id :KARUNANIDHIRAI@YAHOO.COM-->Password :$Mamata12708$
+2020-03-19 10:08:25,138 +0530 [main] INFO  (LoginPageTCs.java:54) - User Id Entered :KARUNANIDHIRAI@YAHOO.COM
+2020-03-19 10:08:25,142 +0530 [main] INFO  (LoginPageTCs.java:55) - page Titel :Guru99 Bank Home Page
+2020-03-19 10:08:25,185 +0530 [main] INFO  (LoginPageTCs.java:57) - Password Entered :$Mamata12708$
+2020-03-19 10:08:25,434 +0530 [main] INFO  (LoginPageTCs.java:59) - Submit button clicked
+2020-03-19 10:08:28,454 +0530 [main] INFO  (LoginPageTCs.java:67) - page Titel :Guru99 Bank Home Page
+2020-03-19 10:08:28,454 +0530 [main] INFO  (LoginPageTCs.java:68) - page Titel X:Guru99 Bank Home Page
+2020-03-19 10:08:41,510 +0530 [main] INFO  (LoginPageTCs.java:90) - LoginTestCase2(String UID, String PWD)Error : -->org.openqa.selenium.NoAlertPresentException: 
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3QC3HN03', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 11488, moz:profile: C:\Users\KN RAI\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ed2f907c-1287-40b8-8541-0c038c01df35
+2020-03-19 10:08:41,521 +0530 [main] INFO  (LoginPageTCs.java:50) - loginTestCase2()user id :karunanidhirai@yahoo.com-->Password :$Mamata12708$
+2020-03-19 10:08:41,706 +0530 [main] INFO  (LoginPageTCs.java:54) - User Id Entered :karunanidhirai@yahoo.com
+2020-03-19 10:08:41,716 +0530 [main] INFO  (LoginPageTCs.java:55) - page Titel :Guru99 Bank Home Page
+2020-03-19 10:08:41,781 +0530 [main] INFO  (LoginPageTCs.java:57) - Password Entered :$Mamata12708$
+2020-03-19 10:08:42,026 +0530 [main] INFO  (LoginPageTCs.java:59) - Submit button clicked
+2020-03-19 10:08:45,046 +0530 [main] INFO  (LoginPageTCs.java:67) - page Titel :Guru99 Bank Home Page
+2020-03-19 10:08:45,048 +0530 [main] INFO  (LoginPageTCs.java:68) - page Titel X:Guru99 Bank Home Page
+2020-03-19 10:08:58,082 +0530 [main] INFO  (LoginPageTCs.java:90) - LoginTestCase2(String UID, String PWD)Error : -->org.openqa.selenium.NoAlertPresentException: 
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3QC3HN03', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 11488, moz:profile: C:\Users\KN RAI\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ed2f907c-1287-40b8-8541-0c038c01df35
+2020-03-19 10:08:59,784 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-19 10:19:19,046 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-19 10:19:24,213 +0530 [main] INFO  (BaseClass.java:58) -    firefox :Driver Load Successfully
+2020-03-19 10:20:14,924 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://demo.guru99.com/v4/index.php
+2020-03-19 10:20:14,940 +0530 [main] INFO  (LoginPageTCs.java:99) - String [][] getData() : getting data from excel sheet
+2020-03-19 10:20:15,667 +0530 [main] INFO  (LoginPageTCs.java:103) - Total Row in Datasheet3: Total Colom in Datasheet :2
+2020-03-19 10:20:15,872 +0530 [main] INFO  (LoginPageTCs.java:112) - user name:mngr250914 : password-->rUzYdap
+2020-03-19 10:20:15,872 +0530 [main] INFO  (LoginPageTCs.java:112) - user name:KARUNANIDHIRAI@YAHOO.COM : password-->$Mamata12708$
+2020-03-19 10:20:15,872 +0530 [main] INFO  (LoginPageTCs.java:112) - user name:karunanidhirai@yahoo.com : password-->$Mamata12708$
+2020-03-19 10:20:15,873 +0530 [main] INFO  (LoginPageTCs.java:114) - String [][] getData() : Test data upload successfully
+2020-03-19 10:20:15,886 +0530 [main] INFO  (LoginPageTCs.java:50) - loginTestCase2()user id :mngr250914-->Password :rUzYdap
+2020-03-19 10:20:16,004 +0530 [main] INFO  (LoginPageTCs.java:54) - User Id Entered :mngr250914
+2020-03-19 10:20:16,010 +0530 [main] INFO  (LoginPageTCs.java:55) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 10:20:18,112 +0530 [main] INFO  (LoginPageTCs.java:59) - Password Entered :rUzYdap
+2020-03-19 10:20:18,387 +0530 [main] INFO  (LoginPageTCs.java:61) - Submit button clicked
+2020-03-19 10:20:21,467 +0530 [main] INFO  (LoginPageTCs.java:69) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 10:20:21,467 +0530 [main] INFO  (LoginPageTCs.java:70) - page Titel X:http://demo.guru99.com/v4/index.php
+2020-03-19 10:20:34,513 +0530 [main] INFO  (LoginPageTCs.java:92) - LoginTestCase2(String UID, String PWD)Error : -->org.openqa.selenium.NoAlertPresentException: 
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3QC3HN03', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 17720, moz:profile: C:\Users\KN RAI\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a651c4a0-83c3-4ef8-9e09-4b7394be24c9
+2020-03-19 10:20:34,572 +0530 [main] INFO  (LoginPageTCs.java:50) - loginTestCase2()user id :KARUNANIDHIRAI@YAHOO.COM-->Password :$Mamata12708$
+2020-03-19 10:20:34,638 +0530 [main] INFO  (LoginPageTCs.java:54) - User Id Entered :KARUNANIDHIRAI@YAHOO.COM
+2020-03-19 10:20:34,642 +0530 [main] INFO  (LoginPageTCs.java:55) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 10:20:36,782 +0530 [main] INFO  (LoginPageTCs.java:59) - Password Entered :$Mamata12708$
+2020-03-19 10:20:37,053 +0530 [main] INFO  (LoginPageTCs.java:61) - Submit button clicked
+2020-03-19 10:20:40,075 +0530 [main] INFO  (LoginPageTCs.java:69) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 10:20:40,076 +0530 [main] INFO  (LoginPageTCs.java:70) - page Titel X:http://demo.guru99.com/v4/index.php
+2020-03-19 10:20:53,129 +0530 [main] INFO  (LoginPageTCs.java:92) - LoginTestCase2(String UID, String PWD)Error : -->org.openqa.selenium.NoAlertPresentException: 
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3QC3HN03', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 17720, moz:profile: C:\Users\KN RAI\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a651c4a0-83c3-4ef8-9e09-4b7394be24c9
+2020-03-19 10:20:53,161 +0530 [main] INFO  (LoginPageTCs.java:50) - loginTestCase2()user id :karunanidhirai@yahoo.com-->Password :$Mamata12708$
+2020-03-19 10:20:53,283 +0530 [main] INFO  (LoginPageTCs.java:54) - User Id Entered :karunanidhirai@yahoo.com
+2020-03-19 10:20:53,291 +0530 [main] INFO  (LoginPageTCs.java:55) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 10:20:55,395 +0530 [main] INFO  (LoginPageTCs.java:59) - Password Entered :$Mamata12708$
+2020-03-19 10:20:55,654 +0530 [main] INFO  (LoginPageTCs.java:61) - Submit button clicked
+2020-03-19 10:20:58,675 +0530 [main] INFO  (LoginPageTCs.java:69) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 10:20:58,675 +0530 [main] INFO  (LoginPageTCs.java:70) - page Titel X:http://demo.guru99.com/v4/index.php
+2020-03-19 10:21:11,731 +0530 [main] INFO  (LoginPageTCs.java:92) - LoginTestCase2(String UID, String PWD)Error : -->org.openqa.selenium.NoAlertPresentException: 
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3QC3HN03', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 17720, moz:profile: C:\Users\KN RAI\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a651c4a0-83c3-4ef8-9e09-4b7394be24c9
+2020-03-19 10:21:12,971 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-19 10:58:45,440 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-19 10:58:50,003 +0530 [main] INFO  (BaseClass.java:58) -    firefox :Driver Load Successfully
+2020-03-19 10:59:12,270 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://demo.guru99.com/v4/index.php
+2020-03-19 10:59:12,278 +0530 [main] INFO  (LoginPageTCs.java:99) - String [][] getData() : getting data from excel sheet
+2020-03-19 10:59:12,900 +0530 [main] INFO  (LoginPageTCs.java:103) - Total Row in Datasheet3: Total Colom in Datasheet :2
+2020-03-19 10:59:13,131 +0530 [main] INFO  (LoginPageTCs.java:112) - user name:mngr250914 : password-->rUzYdap
+2020-03-19 10:59:13,131 +0530 [main] INFO  (LoginPageTCs.java:112) - user name:KARUNANIDHIRAI@YAHOO.COM : password-->$Mamata12708$
+2020-03-19 10:59:13,131 +0530 [main] INFO  (LoginPageTCs.java:112) - user name:karunanidhirai@yahoo.com : password-->$Mamata12708$
+2020-03-19 10:59:13,131 +0530 [main] INFO  (LoginPageTCs.java:114) - String [][] getData() : Test data upload successfully
+2020-03-19 10:59:13,148 +0530 [main] INFO  (LoginPageTCs.java:50) - loginTestCase2()user id :mngr250914-->Password :rUzYdap
+2020-03-19 10:59:13,247 +0530 [main] INFO  (LoginPageTCs.java:54) - User Id Entered :mngr250914
+2020-03-19 10:59:13,253 +0530 [main] INFO  (LoginPageTCs.java:55) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 10:59:15,317 +0530 [main] INFO  (LoginPageTCs.java:59) - Password Entered :rUzYdap
+2020-03-19 10:59:15,562 +0530 [main] INFO  (LoginPageTCs.java:61) - Submit button clicked
+2020-03-19 10:59:18,614 +0530 [main] INFO  (LoginPageTCs.java:69) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 10:59:18,614 +0530 [main] INFO  (LoginPageTCs.java:70) - page Titel X:http://demo.guru99.com/v4/index.php
+2020-03-19 10:59:31,651 +0530 [main] INFO  (LoginPageTCs.java:92) - LoginTestCase2(String UID, String PWD)Error : -->org.openqa.selenium.NoAlertPresentException: 
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3QC3HN03', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 9536, moz:profile: C:\Users\KN RAI\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cb53dc24-d5ca-4805-bb17-5503960272ea
+2020-03-19 10:59:31,691 +0530 [main] INFO  (LoginPageTCs.java:50) - loginTestCase2()user id :KARUNANIDHIRAI@YAHOO.COM-->Password :$Mamata12708$
+2020-03-19 10:59:31,762 +0530 [main] INFO  (LoginPageTCs.java:54) - User Id Entered :KARUNANIDHIRAI@YAHOO.COM
+2020-03-19 10:59:31,767 +0530 [main] INFO  (LoginPageTCs.java:55) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 10:59:33,830 +0530 [main] INFO  (LoginPageTCs.java:59) - Password Entered :$Mamata12708$
+2020-03-19 10:59:34,061 +0530 [main] INFO  (LoginPageTCs.java:61) - Submit button clicked
+2020-03-19 10:59:37,080 +0530 [main] INFO  (LoginPageTCs.java:69) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 10:59:37,080 +0530 [main] INFO  (LoginPageTCs.java:70) - page Titel X:http://demo.guru99.com/v4/index.php
+2020-03-19 10:59:50,114 +0530 [main] INFO  (LoginPageTCs.java:92) - LoginTestCase2(String UID, String PWD)Error : -->org.openqa.selenium.NoAlertPresentException: 
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3QC3HN03', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 9536, moz:profile: C:\Users\KN RAI\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cb53dc24-d5ca-4805-bb17-5503960272ea
+2020-03-19 10:59:50,127 +0530 [main] INFO  (LoginPageTCs.java:50) - loginTestCase2()user id :karunanidhirai@yahoo.com-->Password :$Mamata12708$
+2020-03-19 10:59:50,201 +0530 [main] INFO  (LoginPageTCs.java:54) - User Id Entered :karunanidhirai@yahoo.com
+2020-03-19 10:59:50,206 +0530 [main] INFO  (LoginPageTCs.java:55) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 10:59:52,269 +0530 [main] INFO  (LoginPageTCs.java:59) - Password Entered :$Mamata12708$
+2020-03-19 10:59:52,506 +0530 [main] INFO  (LoginPageTCs.java:61) - Submit button clicked
+2020-03-19 10:59:55,514 +0530 [main] INFO  (LoginPageTCs.java:69) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 10:59:55,515 +0530 [main] INFO  (LoginPageTCs.java:70) - page Titel X:http://demo.guru99.com/v4/index.php
+2020-03-19 11:00:08,548 +0530 [main] INFO  (LoginPageTCs.java:92) - LoginTestCase2(String UID, String PWD)Error : -->org.openqa.selenium.NoAlertPresentException: 
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3QC3HN03', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 9536, moz:profile: C:\Users\KN RAI\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: cb53dc24-d5ca-4805-bb17-5503960272ea
+2020-03-19 11:00:09,649 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-19 11:26:53,159 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-19 11:26:57,844 +0530 [main] INFO  (BaseClass.java:58) -    firefox :Driver Load Successfully
+2020-03-19 11:29:13,514 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://demo.guru99.com/v4/index.php
+2020-03-19 11:29:13,519 +0530 [main] INFO  (LoginPageTCs.java:97) - String [][] getData() : getting data from excel sheet
+2020-03-19 11:29:14,230 +0530 [main] INFO  (LoginPageTCs.java:101) - Total Row in Datasheet3: Total Colom in Datasheet :2
+2020-03-19 11:29:14,452 +0530 [main] INFO  (LoginPageTCs.java:110) - user name:mngr250914 : password-->rUzYdap
+2020-03-19 11:29:14,452 +0530 [main] INFO  (LoginPageTCs.java:110) - user name:KARUNANIDHIRAI@YAHOO.COM : password-->$Mamata12708$
+2020-03-19 11:29:14,452 +0530 [main] INFO  (LoginPageTCs.java:110) - user name:karunanidhirai@yahoo.com : password-->$Mamata12708$
+2020-03-19 11:29:14,452 +0530 [main] INFO  (LoginPageTCs.java:112) - String [][] getData() : Test data upload successfully
+2020-03-19 11:29:14,465 +0530 [main] INFO  (LoginPageTCs.java:50) - loginTestCase2()user id :mngr250914-->Password :rUzYdap
+2020-03-19 11:29:14,550 +0530 [main] INFO  (LoginPageTCs.java:54) - User Id Entered :mngr250914
+2020-03-19 11:29:14,557 +0530 [main] INFO  (LoginPageTCs.java:55) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 11:29:14,587 +0530 [main] INFO  (LoginPageTCs.java:57) - Password Entered :rUzYdap
+2020-03-19 11:29:16,845 +0530 [main] INFO  (LoginPageTCs.java:60) - Submit button clicked
+2020-03-19 11:29:19,884 +0530 [main] INFO  (LoginPageTCs.java:68) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 11:29:19,885 +0530 [main] INFO  (LoginPageTCs.java:69) - page Titel X:http://demo.guru99.com/v4/index.php
+2020-03-19 11:29:22,905 +0530 [main] INFO  (LoginPageTCs.java:90) - LoginTestCase2(String UID, String PWD)Error : -->org.openqa.selenium.NoAlertPresentException: 
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3QC3HN03', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 22124, moz:profile: C:\Users\KN RAI\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 464bfe9d-8a5a-4311-aa38-bb27b39b1011
+2020-03-19 11:29:22,926 +0530 [main] INFO  (LoginPageTCs.java:50) - loginTestCase2()user id :KARUNANIDHIRAI@YAHOO.COM-->Password :$Mamata12708$
+2020-03-19 11:29:22,975 +0530 [main] INFO  (LoginPageTCs.java:54) - User Id Entered :KARUNANIDHIRAI@YAHOO.COM
+2020-03-19 11:29:22,980 +0530 [main] INFO  (LoginPageTCs.java:55) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 11:29:23,012 +0530 [main] INFO  (LoginPageTCs.java:57) - Password Entered :$Mamata12708$
+2020-03-19 11:29:25,250 +0530 [main] INFO  (LoginPageTCs.java:60) - Submit button clicked
+2020-03-19 11:29:28,256 +0530 [main] INFO  (LoginPageTCs.java:68) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 11:29:28,256 +0530 [main] INFO  (LoginPageTCs.java:69) - page Titel X:http://demo.guru99.com/v4/index.php
+2020-03-19 11:29:31,265 +0530 [main] INFO  (LoginPageTCs.java:90) - LoginTestCase2(String UID, String PWD)Error : -->org.openqa.selenium.NoAlertPresentException: 
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3QC3HN03', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 22124, moz:profile: C:\Users\KN RAI\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 464bfe9d-8a5a-4311-aa38-bb27b39b1011
+2020-03-19 11:29:31,277 +0530 [main] INFO  (LoginPageTCs.java:50) - loginTestCase2()user id :karunanidhirai@yahoo.com-->Password :$Mamata12708$
+2020-03-19 11:29:31,348 +0530 [main] INFO  (LoginPageTCs.java:54) - User Id Entered :karunanidhirai@yahoo.com
+2020-03-19 11:29:31,352 +0530 [main] INFO  (LoginPageTCs.java:55) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 11:29:31,402 +0530 [main] INFO  (LoginPageTCs.java:57) - Password Entered :$Mamata12708$
+2020-03-19 11:29:33,636 +0530 [main] INFO  (LoginPageTCs.java:60) - Submit button clicked
+2020-03-19 11:29:36,646 +0530 [main] INFO  (LoginPageTCs.java:68) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 11:29:36,647 +0530 [main] INFO  (LoginPageTCs.java:69) - page Titel X:http://demo.guru99.com/v4/index.php
+2020-03-19 11:29:39,665 +0530 [main] INFO  (LoginPageTCs.java:90) - LoginTestCase2(String UID, String PWD)Error : -->org.openqa.selenium.NoAlertPresentException: 
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3QC3HN03', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 73.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200217142647, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 22124, moz:profile: C:\Users\KN RAI\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 464bfe9d-8a5a-4311-aa38-bb27b39b1011
+2020-03-19 11:29:40,889 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-19 11:34:36,872 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-19 11:34:42,463 +0530 [main] INFO  (BaseClass.java:58) -    firefox :Driver Load Successfully
+2020-03-19 11:35:49,448 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://demo.guru99.com/v4/index.php
+2020-03-19 11:35:49,452 +0530 [main] INFO  (LoginPageTCs.java:108) - String [][] getData() : getting data from excel sheet
+2020-03-19 11:35:50,125 +0530 [main] INFO  (LoginPageTCs.java:112) - Total Row in Datasheet3: Total Colom in Datasheet :2
+2020-03-19 11:35:50,373 +0530 [main] INFO  (LoginPageTCs.java:121) - user name:mngr250914 : password-->rUzYdap
+2020-03-19 11:35:50,373 +0530 [main] INFO  (LoginPageTCs.java:121) - user name:KARUNANIDHIRAI@YAHOO.COM : password-->$Mamata12708$
+2020-03-19 11:35:50,374 +0530 [main] INFO  (LoginPageTCs.java:121) - user name:karunanidhirai@yahoo.com : password-->$Mamata12708$
+2020-03-19 11:35:50,374 +0530 [main] INFO  (LoginPageTCs.java:123) - String [][] getData() : Test data upload successfully
+2020-03-19 11:35:50,392 +0530 [main] INFO  (LoginPageTCs.java:50) - loginTestCase2()user id :mngr250914-->Password :rUzYdap
+2020-03-19 11:35:50,511 +0530 [main] INFO  (LoginPageTCs.java:54) - User Id Entered :mngr250914
+2020-03-19 11:35:50,519 +0530 [main] INFO  (LoginPageTCs.java:55) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 11:35:50,566 +0530 [main] INFO  (LoginPageTCs.java:57) - Password Entered :rUzYdap
+2020-03-19 11:35:52,815 +0530 [main] INFO  (LoginPageTCs.java:60) - Submit button clicked
+2020-03-19 11:35:55,826 +0530 [main] INFO  (LoginPageTCs.java:64) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 11:35:55,828 +0530 [main] INFO  (LoginPageTCs.java:65) - page Titel X:http://demo.guru99.com/v4/index.php
+2020-03-19 11:35:58,863 +0530 [main] INFO  (LoginPageTCs.java:50) - loginTestCase2()user id :KARUNANIDHIRAI@YAHOO.COM-->Password :$Mamata12708$
+2020-03-19 11:35:58,930 +0530 [main] INFO  (LoginPageTCs.java:54) - User Id Entered :KARUNANIDHIRAI@YAHOO.COM
+2020-03-19 11:35:58,934 +0530 [main] INFO  (LoginPageTCs.java:55) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 11:35:58,981 +0530 [main] INFO  (LoginPageTCs.java:57) - Password Entered :$Mamata12708$
+2020-03-19 11:36:01,221 +0530 [main] INFO  (LoginPageTCs.java:60) - Submit button clicked
+2020-03-19 11:36:04,224 +0530 [main] INFO  (LoginPageTCs.java:64) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 11:36:04,225 +0530 [main] INFO  (LoginPageTCs.java:65) - page Titel X:http://demo.guru99.com/v4/index.php
+2020-03-19 11:36:07,238 +0530 [main] INFO  (LoginPageTCs.java:50) - loginTestCase2()user id :karunanidhirai@yahoo.com-->Password :$Mamata12708$
+2020-03-19 11:36:07,298 +0530 [main] INFO  (LoginPageTCs.java:54) - User Id Entered :karunanidhirai@yahoo.com
+2020-03-19 11:36:07,305 +0530 [main] INFO  (LoginPageTCs.java:55) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 11:36:07,342 +0530 [main] INFO  (LoginPageTCs.java:57) - Password Entered :$Mamata12708$
+2020-03-19 11:36:09,608 +0530 [main] INFO  (LoginPageTCs.java:60) - Submit button clicked
+2020-03-19 11:36:12,614 +0530 [main] INFO  (LoginPageTCs.java:64) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 11:36:12,614 +0530 [main] INFO  (LoginPageTCs.java:65) - page Titel X:http://demo.guru99.com/v4/index.php
+2020-03-19 11:36:16,865 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-19 11:43:15,394 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-19 11:43:20,039 +0530 [main] INFO  (BaseClass.java:58) -    firefox :Driver Load Successfully
+2020-03-19 11:44:03,436 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://demo.guru99.com/v4/index.php
+2020-03-19 11:44:03,440 +0530 [main] INFO  (LoginPageTCs.java:108) - String [][] getData() : getting data from excel sheet
+2020-03-19 11:44:04,295 +0530 [main] INFO  (LoginPageTCs.java:112) - Total Row in Datasheet3: Total Colom in Datasheet :2
+2020-03-19 11:44:04,533 +0530 [main] INFO  (LoginPageTCs.java:125) - String [][] getData() : Test data upload successfully
+2020-03-19 11:44:04,551 +0530 [main] INFO  (LoginPageTCs.java:50) - loginTestCase2()user id :mngr250914-->Password :rUzYdap
+2020-03-19 11:44:04,664 +0530 [main] INFO  (LoginPageTCs.java:54) - User Id Entered :mngr250914
+2020-03-19 11:44:04,670 +0530 [main] INFO  (LoginPageTCs.java:55) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 11:44:04,706 +0530 [main] INFO  (LoginPageTCs.java:57) - Password Entered :rUzYdap
+2020-03-19 11:44:06,938 +0530 [main] INFO  (LoginPageTCs.java:60) - Submit button clicked
+2020-03-19 11:44:09,942 +0530 [main] INFO  (LoginPageTCs.java:64) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 11:44:09,942 +0530 [main] INFO  (LoginPageTCs.java:65) - page Titel X:http://demo.guru99.com/v4/index.php
+2020-03-19 11:44:12,963 +0530 [main] INFO  (LoginPageTCs.java:50) - loginTestCase2()user id :KARUNANIDHIRAI@YAHOO.COM-->Password :$Mamata12708$
+2020-03-19 11:44:13,027 +0530 [main] INFO  (LoginPageTCs.java:54) - User Id Entered :KARUNANIDHIRAI@YAHOO.COM
+2020-03-19 11:44:13,031 +0530 [main] INFO  (LoginPageTCs.java:55) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 11:44:13,091 +0530 [main] INFO  (LoginPageTCs.java:57) - Password Entered :$Mamata12708$
+2020-03-19 11:44:15,334 +0530 [main] INFO  (LoginPageTCs.java:60) - Submit button clicked
+2020-03-19 11:44:18,340 +0530 [main] INFO  (LoginPageTCs.java:64) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 11:44:18,340 +0530 [main] INFO  (LoginPageTCs.java:65) - page Titel X:http://demo.guru99.com/v4/index.php
+2020-03-19 11:44:21,366 +0530 [main] INFO  (LoginPageTCs.java:50) - loginTestCase2()user id :karunanidhirai@yahoo.com-->Password :$Mamata12708$
+2020-03-19 11:44:21,422 +0530 [main] INFO  (LoginPageTCs.java:54) - User Id Entered :karunanidhirai@yahoo.com
+2020-03-19 11:44:21,427 +0530 [main] INFO  (LoginPageTCs.java:55) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 11:44:21,458 +0530 [main] INFO  (LoginPageTCs.java:57) - Password Entered :$Mamata12708$
+2020-03-19 11:44:23,702 +0530 [main] INFO  (LoginPageTCs.java:60) - Submit button clicked
+2020-03-19 11:44:26,709 +0530 [main] INFO  (LoginPageTCs.java:64) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 11:44:26,709 +0530 [main] INFO  (LoginPageTCs.java:65) - page Titel X:http://demo.guru99.com/v4/index.php
+2020-03-19 11:44:30,816 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-19 11:48:18,129 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-19 11:48:23,520 +0530 [main] INFO  (BaseClass.java:58) -    firefox :Driver Load Successfully
+2020-03-19 11:49:11,081 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://demo.guru99.com/v4/index.php
+2020-03-19 11:49:11,085 +0530 [main] INFO  (LoginPageTCs.java:108) - String [][] getData() : getting data from excel sheet
+2020-03-19 11:49:11,749 +0530 [main] INFO  (LoginPageTCs.java:112) - Total Row in Datasheet1: Total Colom in Datasheet :2
+2020-03-19 11:49:11,846 +0530 [main] INFO  (LoginPageTCs.java:125) - String [][] getData() : Test data upload successfully
+2020-03-19 11:49:11,860 +0530 [main] INFO  (LoginPageTCs.java:50) - loginTestCase2()user id :mngr250914-->Password :rUzYdap
+2020-03-19 11:49:11,964 +0530 [main] INFO  (LoginPageTCs.java:54) - User Id Entered :mngr250914
+2020-03-19 11:49:11,968 +0530 [main] INFO  (LoginPageTCs.java:55) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 11:49:12,011 +0530 [main] INFO  (LoginPageTCs.java:57) - Password Entered :rUzYdap
+2020-03-19 11:49:14,270 +0530 [main] INFO  (LoginPageTCs.java:60) - Submit button clicked
+2020-03-19 11:49:17,276 +0530 [main] INFO  (LoginPageTCs.java:64) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 11:49:17,277 +0530 [main] INFO  (LoginPageTCs.java:65) - page Titel X:http://demo.guru99.com/v4/index.php
+2020-03-19 11:49:21,553 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-19 11:53:11,924 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-19 11:53:29,904 +0530 [main] INFO  (BaseClass.java:58) -    chrome :Driver Load Successfully
+2020-03-19 11:53:40,214 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://demo.guru99.com/v4/index.php
+2020-03-19 11:53:40,219 +0530 [main] INFO  (LoginPageTCs.java:109) - String [][] getData() : getting data from excel sheet
+2020-03-19 11:53:41,041 +0530 [main] INFO  (LoginPageTCs.java:113) - Total Row in Datasheet1: Total Colom in Datasheet :2
+2020-03-19 11:53:41,174 +0530 [main] INFO  (LoginPageTCs.java:126) - String [][] getData() : Test data upload successfully
+2020-03-19 11:53:41,188 +0530 [main] INFO  (LoginPageTCs.java:50) - loginTestCase2()user id :mngr250914-->Password :rUzYdap
+2020-03-19 11:53:41,410 +0530 [main] INFO  (LoginPageTCs.java:54) - User Id Entered :mngr250914
+2020-03-19 11:53:41,420 +0530 [main] INFO  (LoginPageTCs.java:55) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 11:53:41,541 +0530 [main] INFO  (LoginPageTCs.java:57) - Password Entered :rUzYdap
+2020-03-19 11:53:43,648 +0530 [main] INFO  (LoginPageTCs.java:60) - Submit button clicked
+2020-03-19 11:53:46,655 +0530 [main] INFO  (LoginPageTCs.java:64) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 11:53:46,655 +0530 [main] INFO  (LoginPageTCs.java:65) - page Titel X:http://demo.guru99.com/v4/index.php
+2020-03-19 11:53:50,450 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-19 11:55:33,014 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-19 11:55:41,125 +0530 [main] INFO  (BaseClass.java:58) -    chrome :Driver Load Successfully
+2020-03-19 11:55:49,072 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://demo.guru99.com/v4/index.php
+2020-03-19 11:55:49,082 +0530 [main] INFO  (LoginPageTCs.java:109) - String [][] getData() : getting data from excel sheet
+2020-03-19 11:55:50,900 +0530 [main] INFO  (LoginPageTCs.java:113) - Total Row in Datasheet1: Total Colom in Datasheet :2
+2020-03-19 11:55:51,126 +0530 [main] INFO  (LoginPageTCs.java:126) - String [][] getData() : Test data upload successfully
+2020-03-19 11:55:51,151 +0530 [main] INFO  (LoginPageTCs.java:50) - loginTestCase2()user id :mngr250914-->Password :rUzYdap
+2020-03-19 11:55:51,649 +0530 [main] INFO  (LoginPageTCs.java:54) - User Id Entered :mngr250914
+2020-03-19 11:55:51,678 +0530 [main] INFO  (LoginPageTCs.java:55) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 11:55:52,029 +0530 [main] INFO  (LoginPageTCs.java:57) - Password Entered :rUzYdap
+2020-03-19 11:55:57,155 +0530 [main] INFO  (LoginPageTCs.java:60) - Submit button clicked
+2020-03-19 11:56:00,170 +0530 [main] INFO  (LoginPageTCs.java:64) - page Titel :http://demo.guru99.com/v4/manager/Managerhomepage.php
+2020-03-19 11:56:00,171 +0530 [main] INFO  (LoginPageTCs.java:65) - page Titel X:http://demo.guru99.com/v4/index.php
+2020-03-19 11:56:04,568 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-19 12:12:53,170 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-19 12:13:01,707 +0530 [main] INFO  (BaseClass.java:58) -    chrome :Driver Load Successfully
+2020-03-19 12:13:44,227 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://demo.guru99.com/v4/index.php
+2020-03-19 12:13:44,233 +0530 [main] INFO  (LoginPageTCs.java:87) - String [][] getData() : getting data from excel sheet
+2020-03-19 12:13:45,024 +0530 [main] INFO  (LoginPageTCs.java:91) - Total Row in Datasheet1: Total Colom in Datasheet :2
+2020-03-19 12:13:45,154 +0530 [main] INFO  (LoginPageTCs.java:104) - String [][] getData() : Test data upload successfully
+2020-03-19 12:13:45,169 +0530 [main] INFO  (LoginPageTCs.java:50) - loginTestCase2()user id :mngr250914-->Password :rUzYdap
+2020-03-19 12:13:45,427 +0530 [main] INFO  (LoginPageTCs.java:54) - User Id Entered :mngr250914
+2020-03-19 12:13:45,436 +0530 [main] INFO  (LoginPageTCs.java:55) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 12:13:45,603 +0530 [main] INFO  (LoginPageTCs.java:57) - Password Entered :rUzYdap
+2020-03-19 12:13:58,800 +0530 [main] INFO  (LoginPageTCs.java:60) - Submit button clicked
+2020-03-19 12:14:01,858 +0530 [main] INFO  (LoginPageTCs.java:121) - issue in isAlertPresent Method
+2020-03-19 12:14:01,871 +0530 [main] INFO  (LoginPageTCs.java:67) - Page Current URl :http://demo.guru99.com/v4/index.php== Page Current URl :http://demo.guru99.com/v4/manager/Managerhomepage.php
+2020-03-19 12:14:01,879 +0530 [main] INFO  (LoginPageTCs.java:74) - Test Case Pass User ID:mngr250914: PasswordrUzYdap
+2020-03-19 12:14:05,816 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-19 12:20:43,947 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-19 12:20:50,103 +0530 [main] INFO  (BaseClass.java:58) -    chrome :Driver Load Successfully
+2020-03-19 12:24:00,947 +0530 [main] INFO  (BaseClass.java:75) -    chrome: Fail to load driver Successfully : Error -->
+2020-03-19 12:24:00,964 +0530 [main] INFO  (LoginPageTCs.java:87) - String [][] getData() : getting data from excel sheet
+2020-03-19 12:24:01,615 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-19 12:24:02,928 +0530 [main] INFO  (LoginPageTCs.java:91) - Total Row in Datasheet1: Total Colom in Datasheet :2
+2020-03-19 12:24:03,168 +0530 [main] INFO  (LoginPageTCs.java:104) - String [][] getData() : Test data upload successfully
+2020-03-19 12:24:03,197 +0530 [main] INFO  (LoginPageTCs.java:50) - loginTestCase2()user id :mngr250914-->Password :rUzYdap
+2020-03-19 12:24:10,619 +0530 [main] INFO  (BaseClass.java:58) -    chrome :Driver Load Successfully
+2020-03-19 12:24:18,241 +0530 [main] INFO  (LoginPageTCs.java:80) - LoginTestCase2(String UID, String PWD)Error : -->org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=80.0.3987.132)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3QC3HN03', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\KNRAI~1\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:60406}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0446abf62f25e30dbf8f7001f3b4212f
+2020-03-19 12:24:19,209 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-19 12:24:30,177 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://demo.guru99.com/v4/index.php
+2020-03-19 12:24:30,186 +0530 [main] INFO  (LoginPageTCs.java:87) - String [][] getData() : getting data from excel sheet
+2020-03-19 12:24:31,948 +0530 [main] INFO  (LoginPageTCs.java:91) - Total Row in Datasheet1: Total Colom in Datasheet :2
+2020-03-19 12:24:32,179 +0530 [main] INFO  (LoginPageTCs.java:104) - String [][] getData() : Test data upload successfully
+2020-03-19 12:24:32,205 +0530 [main] INFO  (LoginPageTCs.java:50) - loginTestCase2()user id :mngr250914-->Password :rUzYdap
+2020-03-19 12:24:32,606 +0530 [main] INFO  (LoginPageTCs.java:54) - User Id Entered :mngr250914
+2020-03-19 12:24:32,618 +0530 [main] INFO  (LoginPageTCs.java:55) - page Titel :http://demo.guru99.com/v4/index.php
+2020-03-19 12:24:32,814 +0530 [main] INFO  (LoginPageTCs.java:57) - Password Entered :rUzYdap
+2020-03-19 12:24:44,668 +0530 [main] INFO  (LoginPageTCs.java:60) - Submit button clicked
+2020-03-19 12:24:47,739 +0530 [main] INFO  (LoginPageTCs.java:67) - Page Current URl :http://demo.guru99.com/v4/index.php== Page Current URl :http://demo.guru99.com/v4/manager/Managerhomepage.php
+2020-03-19 12:24:47,754 +0530 [main] INFO  (LoginPageTCs.java:74) - Test Case Pass User ID:mngr250914: PasswordrUzYdap
+2020-03-19 12:24:52,070 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-19 12:29:02,094 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-19 12:29:10,686 +0530 [main] INFO  (BaseClass.java:58) -    chrome :Driver Load Successfully
+2020-03-19 12:29:56,686 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://demo.guru99.com/v4/index.php
+2020-03-19 12:29:56,692 +0530 [main] INFO  (LoginPageTCs.java:85) - String [][] getData() : getting data from excel sheet
+2020-03-19 12:29:58,275 +0530 [main] INFO  (LoginPageTCs.java:89) - Total Row in Datasheet1: Total Colom in Datasheet :2
+2020-03-19 12:29:58,452 +0530 [main] INFO  (LoginPageTCs.java:102) - String [][] getData() : Test data upload successfully
+2020-03-19 12:29:59,658 +0530 [main] INFO  (LoginPageTCs.java:53) - User Id Entered :mngr250914
+2020-03-19 12:29:59,667 +0530 [main] INFO  (LoginPageTCs.java:54) - Before Login Page URl :http://demo.guru99.com/v4/index.php
+2020-03-19 12:29:59,926 +0530 [main] INFO  (LoginPageTCs.java:56) - Password Entered :rUzYdap
+2020-03-19 12:30:24,759 +0530 [main] INFO  (LoginPageTCs.java:58) - Submit button clicked
+2020-03-19 12:30:26,847 +0530 [main] INFO  (LoginPageTCs.java:65) - Before Login Page URl :http://demo.guru99.com/v4/index.php== After Login Page URl :http://demo.guru99.com/v4/manager/Managerhomepage.php
+2020-03-19 12:30:26,864 +0530 [main] INFO  (LoginPageTCs.java:72) - Test Case Pass User ID:mngr250914: PasswordrUzYdap
+2020-03-19 12:30:30,886 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-19 12:32:45,427 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-19 12:32:53,941 +0530 [main] INFO  (BaseClass.java:58) -    chrome :Driver Load Successfully
+2020-03-19 12:33:24,834 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://demo.guru99.com/v4/index.php
+2020-03-19 12:33:24,842 +0530 [main] INFO  (LoginPageTCs.java:85) - String [][] getData() : getting data from excel sheet
+2020-03-19 12:33:26,077 +0530 [main] INFO  (LoginPageTCs.java:89) - Total Row in Datasheet1: Total Colom in Datasheet :2
+2020-03-19 12:33:26,257 +0530 [main] INFO  (LoginPageTCs.java:102) - String [][] getData() : Test data upload successfully
+2020-03-19 12:33:26,379 +0530 [main] INFO  (LoginPageTCs.java:52) - Before Login Page URl :http://demo.guru99.com/v4/index.php
+2020-03-19 12:33:26,642 +0530 [main] INFO  (LoginPageTCs.java:54) - User Id Entered :mngr250914
+2020-03-19 12:33:26,877 +0530 [main] INFO  (LoginPageTCs.java:56) - Password Entered :rUzYdap
+2020-03-19 12:33:30,165 +0530 [main] INFO  (LoginPageTCs.java:58) - Submit button clicked
+2020-03-19 12:33:32,219 +0530 [main] INFO  (LoginPageTCs.java:65) - After Login Page URl :http://demo.guru99.com/v4/manager/Managerhomepage.php
+2020-03-19 12:33:32,230 +0530 [main] INFO  (LoginPageTCs.java:72) - Test Case Pass User ID:mngr250914: PasswordrUzYdap
+2020-03-19 12:33:40,263 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-19 12:40:56,530 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-19 12:41:02,724 +0530 [main] INFO  (BaseClass.java:58) -    chrome :Driver Load Successfully
+2020-03-19 12:45:54,881 +0530 [main] INFO  (BaseClass.java:75) -    chrome: Fail to load driver Successfully : Error -->
+2020-03-19 12:45:54,890 +0530 [main] INFO  (LoginPageTCs.java:117) - String [][] getData() : getting data from excel sheet
+2020-03-19 12:45:55,513 +0530 [main] INFO  (LoginPageTCs.java:121) - Total Row in Datasheet1: Total Colom in Datasheet :2
+2020-03-19 12:45:55,605 +0530 [main] INFO  (LoginPageTCs.java:134) - String [][] getData() : Test data upload successfully
+2020-03-19 12:45:55,648 +0530 [main] INFO  (LoginPageTCs.java:76) - LoginTestCase2(String UID, String PWD)Error : -->org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.132)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3QC3HN03', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\KNRAI~1\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49982}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7f2ed8f33e1ea42a1f412b3c5696579a
+2020-03-19 12:45:55,669 +0530 [main] INFO  (LoginPageTCs.java:117) - String [][] getData() : getting data from excel sheet
+2020-03-19 12:45:55,743 +0530 [main] INFO  (LoginPageTCs.java:121) - Total Row in Datasheet1: Total Colom in Datasheet :2
+2020-03-19 12:45:55,796 +0530 [main] INFO  (LoginPageTCs.java:134) - String [][] getData() : Test data upload successfully
+2020-03-19 12:45:55,803 +0530 [main] INFO  (LoginPageTCs.java:110) - LoginTestCase2(String UID, String PWD)Error : -->org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.132)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3QC3HN03', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\KNRAI~1\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49982}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7f2ed8f33e1ea42a1f412b3c5696579a
+2020-03-19 12:45:56,428 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-19 12:46:11,403 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-19 12:46:17,703 +0530 [main] INFO  (BaseClass.java:58) -    chrome :Driver Load Successfully
+2020-03-19 12:46:52,336 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://demo.guru99.com/v4/index.php
+2020-03-19 12:46:52,341 +0530 [main] INFO  (LoginPageTCs.java:117) - String [][] getData() : getting data from excel sheet
+2020-03-19 12:46:52,892 +0530 [main] INFO  (LoginPageTCs.java:121) - Total Row in Datasheet1: Total Colom in Datasheet :2
+2020-03-19 12:46:52,969 +0530 [main] INFO  (LoginPageTCs.java:134) - String [][] getData() : Test data upload successfully
+2020-03-19 12:46:53,035 +0530 [main] INFO  (LoginPageTCs.java:52) - Before Login Page URl :http://demo.guru99.com/v4/index.php
+2020-03-19 12:46:53,180 +0530 [main] INFO  (LoginPageTCs.java:54) - User Id Entered :mngr250914
+2020-03-19 12:46:53,268 +0530 [main] INFO  (LoginPageTCs.java:56) - Password Entered :rUzYdap
+2020-03-19 12:47:13,698 +0530 [main] INFO  (LoginPageTCs.java:58) - Submit button clicked
+2020-03-19 12:47:15,750 +0530 [main] INFO  (LoginPageTCs.java:65) - After Login Page URl :http://demo.guru99.com/v4/manager/Managerhomepage.php
+2020-03-19 12:47:15,757 +0530 [main] INFO  (LoginPageTCs.java:72) - Test Case Pass User ID:mngr250914: PasswordrUzYdap
+2020-03-19 12:47:15,775 +0530 [main] INFO  (LoginPageTCs.java:117) - String [][] getData() : getting data from excel sheet
+2020-03-19 12:47:15,856 +0530 [main] INFO  (LoginPageTCs.java:121) - Total Row in Datasheet1: Total Colom in Datasheet :2
+2020-03-19 12:47:15,911 +0530 [main] INFO  (LoginPageTCs.java:134) - String [][] getData() : Test data upload successfully
+2020-03-19 12:47:15,931 +0530 [main] INFO  (LoginPageTCs.java:84) - Before Login Page URl :http://demo.guru99.com/v4/manager/Managerhomepage.php
+2020-03-19 12:47:25,966 +0530 [main] INFO  (LoginPageTCs.java:86) - User Id Entered :mngr250914
+2020-03-19 12:47:36,005 +0530 [main] INFO  (LoginPageTCs.java:88) - Password Entered :rUzYdap
+2020-03-19 12:47:46,018 +0530 [main] INFO  (LoginPageTCs.java:90) - Submit button clicked
+2020-03-19 12:47:48,031 +0530 [main] INFO  (LoginPageTCs.java:97) - After Login Page URl :http://demo.guru99.com/v4/manager/Managerhomepage.php
+2020-03-19 12:47:48,786 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-19 12:58:41,551 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-19 12:58:47,802 +0530 [main] INFO  (BaseClass.java:58) -    chrome :Driver Load Successfully
+2020-03-19 12:59:01,431 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://demo.guru99.com/v4/index.php
+2020-03-19 12:59:01,434 +0530 [main] INFO  (LoginPageTCs.java:126) - String [][] getData() : getting data from excel sheet
+2020-03-19 12:59:02,071 +0530 [main] INFO  (LoginPageTCs.java:130) - Total Row in Datasheet1: Total Colom in Datasheet :2
+2020-03-19 12:59:02,153 +0530 [main] INFO  (LoginPageTCs.java:143) - String [][] getData() : Test data upload successfully
+2020-03-19 12:59:02,213 +0530 [main] INFO  (LoginPageTCs.java:52) - Before Login Page URl :http://demo.guru99.com/v4/index.php
+2020-03-19 12:59:02,372 +0530 [main] INFO  (LoginPageTCs.java:54) - User Id Entered :mngr250914
+2020-03-19 12:59:02,489 +0530 [main] INFO  (LoginPageTCs.java:56) - Password Entered :rUzYdap
+2020-03-19 12:59:06,648 +0530 [main] INFO  (LoginPageTCs.java:58) - Submit button clicked
+2020-03-19 12:59:08,681 +0530 [main] INFO  (LoginPageTCs.java:65) - After Login Page URl :http://demo.guru99.com/v4/manager/Managerhomepage.php
+2020-03-19 12:59:08,689 +0530 [main] INFO  (LoginPageTCs.java:72) - Test Case1 Pass User ID:mngr250914: PasswordrUzYdap
+2020-03-19 12:59:08,703 +0530 [main] INFO  (LoginPageTCs.java:126) - String [][] getData() : getting data from excel sheet
+2020-03-19 12:59:08,778 +0530 [main] INFO  (LoginPageTCs.java:130) - Total Row in Datasheet1: Total Colom in Datasheet :2
+2020-03-19 12:59:08,825 +0530 [main] INFO  (LoginPageTCs.java:143) - String [][] getData() : Test data upload successfully
+2020-03-19 12:59:08,840 +0530 [main] INFO  (LoginPageTCs.java:84) - Before Login Page URl :http://demo.guru99.com/v4/manager/Managerhomepage.php
+2020-03-19 12:59:18,886 +0530 [main] INFO  (LoginPageTCs.java:86) - User Id Entered :mngr250914
+2020-03-19 12:59:28,899 +0530 [main] INFO  (LoginPageTCs.java:88) - Password Entered :rUzYdap
+2020-03-19 12:59:38,924 +0530 [main] INFO  (LoginPageTCs.java:90) - Submit button clicked
+2020-03-19 12:59:40,947 +0530 [main] INFO  (LoginPageTCs.java:97) - After Login Page URl :http://demo.guru99.com/v4/manager/Managerhomepage.php
+2020-03-19 12:59:41,746 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-19 13:03:36,784 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-19 13:03:43,024 +0530 [main] INFO  (BaseClass.java:58) -    chrome :Driver Load Successfully
+2020-03-19 13:03:52,058 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://demo.guru99.com/v4/index.php
+2020-03-19 13:03:52,067 +0530 [main] INFO  (LoginPageTCs.java:126) - String [][] getData() : getting data from excel sheet
+2020-03-19 13:03:52,621 +0530 [main] INFO  (LoginPageTCs.java:130) - Total Row in Datasheet1: Total Colom in Datasheet :2
+2020-03-19 13:03:52,691 +0530 [main] INFO  (LoginPageTCs.java:143) - String [][] getData() : Test data upload successfully
+2020-03-19 13:03:52,752 +0530 [main] INFO  (LoginPageTCs.java:52) - Before Login Page URl :http://demo.guru99.com/v4/index.php
+2020-03-19 13:03:52,889 +0530 [main] INFO  (LoginPageTCs.java:54) - User Id Entered :mngr250914
+2020-03-19 13:03:52,982 +0530 [main] INFO  (LoginPageTCs.java:56) - Password Entered :rUzYdap
+2020-03-19 13:04:07,531 +0530 [main] INFO  (LoginPageTCs.java:58) - Submit button clicked
+2020-03-19 13:04:09,562 +0530 [main] INFO  (LoginPageTCs.java:65) - After Login Page URl :http://demo.guru99.com/v4/manager/Managerhomepage.php
+2020-03-19 13:04:09,568 +0530 [main] INFO  (LoginPageTCs.java:72) - Test Case1 Pass User ID:mngr250914: PasswordrUzYdap
+2020-03-19 13:04:09,589 +0530 [main] INFO  (LoginPageTCs.java:126) - String [][] getData() : getting data from excel sheet
+2020-03-19 13:04:09,667 +0530 [main] INFO  (LoginPageTCs.java:130) - Total Row in Datasheet1: Total Colom in Datasheet :2
+2020-03-19 13:04:09,715 +0530 [main] INFO  (LoginPageTCs.java:143) - String [][] getData() : Test data upload successfully
+2020-03-19 13:04:09,730 +0530 [main] INFO  (LoginPageTCs.java:84) - Before Login Page URl :http://demo.guru99.com/v4/manager/Managerhomepage.php
+2020-03-19 13:04:19,769 +0530 [main] INFO  (LoginPageTCs.java:86) - User Id Entered :mngr250914
+2020-03-19 13:04:29,831 +0530 [main] INFO  (LoginPageTCs.java:88) - Password Entered :rUzYdap
+2020-03-19 13:04:39,879 +0530 [main] INFO  (LoginPageTCs.java:90) - Submit button clicked
+2020-03-19 13:04:41,892 +0530 [main] INFO  (LoginPageTCs.java:97) - After Login Page URl :http://demo.guru99.com/v4/manager/Managerhomepage.php
+2020-03-19 13:04:42,660 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-19 13:17:54,406 +0530 [main] INFO  (BaseClass.java:45) - ./Drivers\geckodriver.exe
+2020-03-19 13:18:00,669 +0530 [main] INFO  (BaseClass.java:58) -    chrome :Driver Load Successfully
+2020-03-19 13:18:21,392 +0530 [main] INFO  (BaseClass.java:65) -    URL is opened successfully :http://demo.guru99.com/v4/index.php
+2020-03-19 13:18:21,397 +0530 [main] INFO  (LoginPageTCs.java:126) - String [][] getData() : getting data from excel sheet
+2020-03-19 13:18:21,937 +0530 [main] INFO  (LoginPageTCs.java:130) - Total Row in Datasheet1: Total Colom in Datasheet :2
+2020-03-19 13:18:22,010 +0530 [main] INFO  (LoginPageTCs.java:143) - String [][] getData() : Test data upload successfully
+2020-03-19 13:18:22,082 +0530 [main] INFO  (LoginPageTCs.java:52) - Before Login Page URl :http://demo.guru99.com/v4/index.php
+2020-03-19 13:18:22,238 +0530 [main] INFO  (LoginPageTCs.java:54) - User Id Entered :mngr250914
+2020-03-19 13:18:22,356 +0530 [main] INFO  (LoginPageTCs.java:56) - Password Entered :rUzYdap
+2020-03-19 13:18:24,824 +0530 [main] INFO  (LoginPageTCs.java:58) - Submit button clicked
+2020-03-19 13:18:26,857 +0530 [main] INFO  (LoginPageTCs.java:65) - After Login Page URl :http://demo.guru99.com/v4/manager/Managerhomepage.php
+2020-03-19 13:18:26,867 +0530 [main] INFO  (LoginPageTCs.java:72) - Test Case1 Pass User ID:mngr250914: PasswordrUzYdap
+2020-03-19 13:18:26,884 +0530 [main] INFO  (LoginPageTCs.java:126) - String [][] getData() : getting data from excel sheet
+2020-03-19 13:18:26,968 +0530 [main] INFO  (LoginPageTCs.java:130) - Total Row in Datasheet1: Total Colom in Datasheet :2
+2020-03-19 13:18:27,019 +0530 [main] INFO  (LoginPageTCs.java:143) - String [][] getData() : Test data upload successfully
+2020-03-19 13:18:27,034 +0530 [main] INFO  (LoginPageTCs.java:84) - Before Login Page URl :http://demo.guru99.com/v4/manager/Managerhomepage.php
+2020-03-19 13:18:37,060 +0530 [main] INFO  (LoginPageTCs.java:86) - User Id Entered :mngr250914
+2020-03-19 13:18:47,113 +0530 [main] INFO  (LoginPageTCs.java:88) - Password Entered :rUzYdap
+2020-03-19 13:18:57,156 +0530 [main] INFO  (LoginPageTCs.java:90) - Submit button clicked
+2020-03-19 13:18:59,204 +0530 [main] INFO  (LoginPageTCs.java:97) - After Login Page URl :http://demo.guru99.com/v4/manager/Managerhomepage.php
+2020-03-19 13:18:59,994 +0530 [main] INFO  (BaseClass.java:84) -    Quit : Driver Loaded Successfully
+2020-03-19 13:27:04,429 +0530 [main] INFO  (BaseClass.java:48) - ./Drivers\geckodriver.exe
+2020-03-19 13:27:10,795 +0530 [main] INFO  (BaseClass.java:61) -    chrome :Driver Load Successfully
+2020-03-19 13:32:31,435 +0530 [main] INFO  (BaseClass.java:48) - ./Drivers\geckodriver.exe
+2020-03-19 13:32:37,942 +0530 [main] INFO  (BaseClass.java:61) -    chrome :Driver Load Successfully
+2020-03-19 13:32:42,944 +0530 [main] INFO  (BaseClass.java:80) -    chrome: Fail to load driver Successfully : Error -->
+2020-03-19 13:32:42,962 +0530 [main] INFO  (LoginPageTCs.java:128) - String [][] getData() : getting data from excel sheet
+2020-03-19 13:32:43,822 +0530 [main] INFO  (LoginPageTCs.java:132) - Total Row in Datasheet1: Total Colom in Datasheet :2
+2020-03-19 13:32:43,919 +0530 [main] INFO  (LoginPageTCs.java:145) - String [][] getData() : Test data upload successfully
+2020-03-19 13:32:58,027 +0530 [main] INFO  (LoginPageTCs.java:77) - LoginTestCase1(String UID, String PWD)Error : -->org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=80.0.3987.132)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3QC3HN03', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\KNRAI~1\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50022}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 201fd3c567e31a5b211e4cd14e2746f4
+2020-03-19 13:32:58,045 +0530 [main] INFO  (LoginPageTCs.java:128) - String [][] getData() : getting data from excel sheet
+2020-03-19 13:32:58,129 +0530 [main] INFO  (LoginPageTCs.java:132) - Total Row in Datasheet1: Total Colom in Datasheet :2
+2020-03-19 13:32:58,192 +0530 [main] INFO  (LoginPageTCs.java:145) - String [][] getData() : Test data upload successfully
+2020-03-19 13:33:12,233 +0530 [main] INFO  (LoginPageTCs.java:121) - LoginTestCase2(String UID, String PWD)Error : -->org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=80.0.3987.132)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3QC3HN03', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\KNRAI~1\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50022}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 201fd3c567e31a5b211e4cd14e2746f4
+2020-03-19 13:33:12,860 +0530 [main] INFO  (BaseClass.java:90) -    Quit : Driver Loaded Successfully
+2020-03-19 13:34:32,388 +0530 [main] INFO  (BaseClass.java:68) -    URL is opened successfully :http://demo.guru99.com/v4/index.php
+2020-03-19 13:34:32,396 +0530 [main] INFO  (LoginPageTCs.java:128) - String [][] getData() : getting data from excel sheet
+2020-03-19 13:34:33,033 +0530 [main] INFO  (LoginPageTCs.java:132) - Total Row in Datasheet1: Total Colom in Datasheet :2
+2020-03-19 13:34:33,146 +0530 [main] INFO  (LoginPageTCs.java:145) - String [][] getData() : Test data upload successfully
+2020-03-19 13:34:33,226 +0530 [main] INFO  (LoginPageTCs.java:52) - Before Login Page URl :http://demo.guru99.com/v4/index.php
+2020-03-19 13:34:33,437 +0530 [main] INFO  (LoginPageTCs.java:54) - User Id Entered :mngr250914
+2020-03-19 13:34:33,525 +0530 [main] INFO  (LoginPageTCs.java:56) - Password Entered :rUzYdap
+2020-03-19 13:34:35,697 +0530 [main] INFO  (LoginPageTCs.java:58) - Submit button clicked
+2020-03-19 13:34:37,733 +0530 [main] INFO  (LoginPageTCs.java:65) - After Login Page URl :http://demo.guru99.com/v4/manager/Managerhomepage.php
+2020-03-19 13:34:37,745 +0530 [main] INFO  (LoginPageTCs.java:72) - Test Case1 Pass User ID:mngr250914: PasswordrUzYdap
+2020-03-19 13:35:09,959 +0530 [main] INFO  (LoginPageTCs.java:128) - String [][] getData() : getting data from excel sheet
+2020-03-19 13:35:10,184 +0530 [main] INFO  (LoginPageTCs.java:132) - Total Row in Datasheet1: Total Colom in Datasheet :2
+2020-03-19 13:35:10,351 +0530 [main] INFO  (LoginPageTCs.java:145) - String [][] getData() : Test data upload successfully
+2020-03-19 13:35:10,419 +0530 [main] INFO  (LoginPageTCs.java:86) - Before Login Page URl :http://demo.guru99.com/v4/index.php
+2020-03-19 13:35:10,600 +0530 [main] INFO  (LoginPageTCs.java:88) - User Id Entered :mngr250914
+2020-03-19 13:35:10,879 +0530 [main] INFO  (LoginPageTCs.java:90) - Password Entered :rUzYdap
+2020-03-19 13:35:16,413 +0530 [main] INFO  (LoginPageTCs.java:92) - Submit button clicked
+2020-03-19 13:35:18,435 +0530 [main] INFO  (LoginPageTCs.java:99) - After Login Page URl :http://demo.guru99.com/v4/manager/Managerhomepage.php
+2020-03-19 13:35:56,459 +0530 [main] INFO  (LoginPageTCs.java:121) - LoginTestCase2(String UID, String PWD)Error : -->org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : You Have Succesfully Logged Out!!}
+  (Session info: chrome=80.0.3987.132): You Have Succesfully Logged Out!!
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3QC3HN03', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\KNRAI~1\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:55784}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3e218b9c5d6c73ca85b684a43f9d1bc3
+2020-03-19 13:35:57,472 +0530 [main] INFO  (BaseClass.java:90) -    Quit : Driver Loaded Successfully
+2020-03-19 13:39:10,614 +0530 [main] INFO  (BaseClass.java:48) - ./Drivers\geckodriver.exe
+2020-03-19 13:39:17,129 +0530 [main] INFO  (BaseClass.java:61) -    chrome :Driver Load Successfully
+2020-03-19 13:40:19,420 +0530 [main] INFO  (BaseClass.java:68) -    URL is opened successfully :http://demo.guru99.com/v4/index.php
+2020-03-19 13:40:19,430 +0530 [main] INFO  (LoginPageTCs.java:132) - String [][] getData() : getting data from excel sheet
+2020-03-19 13:40:20,077 +0530 [main] INFO  (LoginPageTCs.java:136) - Total Row in Datasheet1: Total Colom in Datasheet :2
+2020-03-19 13:40:20,157 +0530 [main] INFO  (LoginPageTCs.java:149) - String [][] getData() : Test data upload successfully
+2020-03-19 13:40:20,223 +0530 [main] INFO  (LoginPageTCs.java:52) - Before Login Page URl :http://demo.guru99.com/v4/index.php
+2020-03-19 13:40:20,430 +0530 [main] INFO  (LoginPageTCs.java:54) - User Id Entered :mngr250914
+2020-03-19 13:40:20,552 +0530 [main] INFO  (LoginPageTCs.java:56) - Password Entered :rUzYdap
+2020-03-19 13:40:22,518 +0530 [main] INFO  (LoginPageTCs.java:58) - Submit button clicked
+2020-03-19 13:45:24,586 +0530 [main] INFO  (LoginPageTCs.java:65) - After Login Page URl :http://demo.guru99.com/v4/index.php
+2020-03-19 13:45:24,648 +0530 [main] INFO  (LoginPageTCs.java:132) - String [][] getData() : getting data from excel sheet
+2020-03-19 13:45:24,897 +0530 [main] INFO  (LoginPageTCs.java:136) - Total Row in Datasheet1: Total Colom in Datasheet :2
+2020-03-19 13:45:24,961 +0530 [main] INFO  (LoginPageTCs.java:149) - String [][] getData() : Test data upload successfully
+2020-03-19 13:45:24,982 +0530 [main] INFO  (LoginPageTCs.java:86) - Before Login Page URl :http://demo.guru99.com/v4/index.php
+2020-03-19 13:45:35,005 +0530 [main] INFO  (LoginPageTCs.java:88) - User Id Entered :mngr250914
+2020-03-19 13:45:45,031 +0530 [main] INFO  (LoginPageTCs.java:90) - Password Entered :rUzYdap
+2020-03-19 13:45:55,064 +0530 [main] INFO  (LoginPageTCs.java:92) - Submit button clicked
+2020-03-19 13:45:57,082 +0530 [main] INFO  (LoginPageTCs.java:99) - After Login Page URl :http://demo.guru99.com/v4/index.php
+2020-03-19 13:45:57,821 +0530 [main] INFO  (BaseClass.java:90) -    Quit : Driver Loaded Successfully
+2020-03-20 09:38:53,180 +0530 [main] INFO  (BaseClass.java:48) - ./Drivers\geckodriver.exe
+2020-03-20 09:39:00,637 +0530 [main] INFO  (BaseClass.java:61) -    chrome :Driver Load Successfully
+2020-03-20 09:39:13,202 +0530 [main] INFO  (BaseClass.java:68) -    URL is opened successfully :http://demo.guru99.com/v4/index.php
+2020-03-20 09:39:13,228 +0530 [main] INFO  (LoginPageTCs.java:132) - String [][] getData() : getting data from excel sheet
+2020-03-20 09:39:14,543 +0530 [main] INFO  (LoginPageTCs.java:136) - Total Row in Datasheet1: Total Colom in Datasheet :2
+2020-03-20 09:39:14,692 +0530 [main] INFO  (LoginPageTCs.java:149) - String [][] getData() : Test data upload successfully
+2020-03-20 09:39:16,387 +0530 [main] INFO  (LoginPageTCs.java:52) - Before Login Page URl :http://demo.guru99.com/v4/index.php
+2020-03-20 09:39:16,949 +0530 [main] INFO  (LoginPageTCs.java:54) - User Id Entered :mngr250914
+2020-03-20 09:39:17,109 +0530 [main] INFO  (LoginPageTCs.java:56) - Password Entered :rUzYdap
+2020-03-20 09:39:20,283 +0530 [main] INFO  (LoginPageTCs.java:58) - Submit button clicked
+2020-03-20 09:39:22,380 +0530 [main] INFO  (LoginPageTCs.java:65) - After Login Page URl :http://demo.guru99.com/v4/manager/Managerhomepage.php
+2020-03-20 09:39:22,391 +0530 [main] INFO  (LoginPageTCs.java:72) - Test Case1 Pass User ID:mngr250914: PasswordrUzYdap
+2020-03-20 09:39:39,207 +0530 [main] INFO  (LoginPageTCs.java:132) - String [][] getData() : getting data from excel sheet
+2020-03-20 09:39:39,297 +0530 [main] INFO  (LoginPageTCs.java:136) - Total Row in Datasheet1: Total Colom in Datasheet :2
+2020-03-20 09:39:39,384 +0530 [main] INFO  (LoginPageTCs.java:149) - String [][] getData() : Test data upload successfully
+2020-03-20 09:39:39,398 +0530 [main] INFO  (LoginPageTCs.java:86) - Before Login Page URl :http://demo.guru99.com/v4/index.php
+2020-03-20 09:39:39,531 +0530 [main] INFO  (LoginPageTCs.java:88) - User Id Entered :mngr250914
+2020-03-20 09:39:39,647 +0530 [main] INFO  (LoginPageTCs.java:90) - Password Entered :rUzYdap
+2020-03-20 09:39:42,862 +0530 [main] INFO  (LoginPageTCs.java:92) - Submit button clicked
+2020-03-20 09:39:44,892 +0530 [main] INFO  (LoginPageTCs.java:99) - After Login Page URl :http://demo.guru99.com/v4/manager/Managerhomepage.php
+2020-03-20 09:40:41,653 +0530 [main] INFO  (LoginPageTCs.java:119) - Logout Test Case Pass User ID:mngr250914: PasswordrUzYdap
+2020-03-20 09:40:42,440 +0530 [main] INFO  (BaseClass.java:90) -    Quit : Driver Loaded Successfully

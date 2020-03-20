@@ -8,15 +8,25 @@ import org.openqa.selenium.support.PageFactory;
 
 public class BELoginPage {
 	WebDriver lDriver;
+	
 	public BELoginPage(WebDriver rDriver) {
 		lDriver= rDriver;
 		PageFactory.initElements(rDriver,this);
 	}
 
-	@FindBy(name="UserID")   @CacheLookup WebElement Xemail;
-	@FindBy(name="password") @CacheLookup WebElement Xpass;
-	@FindBy(name="loginBtn") @CacheLookup WebElement Xu_0_2;
 
+/*	@FindBy(name="email")   @CacheLookup WebElement email;
+	@FindBy(name="pass") @CacheLookup WebElement pass;
+	@FindBy(id="u_0_b") @CacheLookup WebElement u_0_2;
+
+*/
+	
+	@FindBy(name="uid") @CacheLookup WebElement email;
+	@FindBy(name="password") @CacheLookup WebElement pass;
+	@FindBy(name="btnLogin") @CacheLookup WebElement u_0_2;
+	@FindBy(xpath="//a[@href='Logout.php']") @CacheLookup WebElement logout;
+
+/*
 	@FindBy(xpath = "//input[contains(@id,'email')]")
 	@CacheLookup 
 	WebElement email;
@@ -28,17 +38,39 @@ public class BELoginPage {
 	@FindBy(xpath = "//input[contains(@data-testid,'royal_login_button')]")
 	@CacheLookup
 	WebElement u_0_2;
-	
+*/
 	public void setUserID(String UID) {
-		email.sendKeys(UID);
+		try {
+			email.sendKeys(UID);
+		}
+		catch(Exception e) {
+			System.out.println("Fail to set value : email.sendKeys(UID))");
+		}
 	}
 	
 	public void setPassword(String PWD) {
-		pass.sendKeys(PWD);
+		try {
+			pass.sendKeys(PWD);
+		}
+		catch(Exception e) {
+			System.out.println("Fail to set value : pass.sendKeys(PWD))");
+		}
 	}
 	
 	public void loginSubmit() {
-		u_0_2.click();
+		try {
+			u_0_2.click();
+		}
+		catch(Exception e) {
+			System.out.println("Fail to set value : u_0_2.click())");
+		}
+	}	
+	public void clickLogout() {
+		try {
+			logout.click();
+		}
+		catch(Exception e) {
+			System.out.println("Fail to set value : logout.click())");
+		}	
 	}
-
 }

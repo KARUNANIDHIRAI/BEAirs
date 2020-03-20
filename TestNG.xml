@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="AirsV1">
+<suite name="BEAirsV1">
 
 	<listeners>
-		<listener class-name="com.airs.utilities.Reporting"/>
+		<listener class-name="com.CtechInfoSys.BEAirs.Utilities.Reporting"/>
 	</listeners>
 
-	<test name="AirsIBEV1 Test">
-		<parameter name ="browser" value="firefox"/>
+	<test name="BEAirsIBEV1 Test">
+		<parameter name ="browser" value="chrome"/>
 		<classes>
-			<class name="com.airs.testCases.loginPageTCs"/>
+			<class name="com.CtechInfoSys.BEAirs.TestCase.LoginPageTCs"/>
 		</classes>
 	</test>
 </suite>

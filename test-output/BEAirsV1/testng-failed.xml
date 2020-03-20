@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BEAirsV1]">
+  <listeners>
+    <listener class-name="com.CtechInfoSys.BEAirs.Utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="BEAirsIBEV1 Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.CtechInfoSys.BEAirs.TestCase.LoginPageTCs">
+        <methods>
+          <include name="setup"/>
+          <include name="LoginTestCase2" invocation-numbers="0"/>
+          <include name="LoginTestCase1" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.CtechInfoSys.BEAirs.TestCase.LoginPageTCs -->
+    </classes>
+  </test> <!-- BEAirsIBEV1 Test(failed) -->
+</suite> <!-- Failed suite [BEAirsV1] -->

@@ -1,0 +1,98 @@
+package com.CtechInfoSys.BEAirs.Utilities;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+import org.apache.poi.ss.usermodel.DataFormatter;
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class XLUtils {
+	public static FileInputStream fis;
+	public static FileOutputStream fos;
+	public static XSSFWorkbook wob;
+	public static XSSFSheet wos;
+	public static XSSFRow row;
+	public static XSSFCell cel;
+	
+	public static int getRowCount(String xlfile, String xlsheet) throws IOException{
+		
+		fis = new FileInputStream(xlfile) ;
+		wob = new XSSFWorkbook(fis);
+		wos=wob.getSheet(xlsheet);
+		int rowCount =wos.getLastRowNum();
+		wob.close();
+		fis.close();
+		return rowCount ;
+	}
+	
+	public static int getCelCount(String xlfile, String xlsheet, int rownum) throws IOException{
+		
+		fis = new FileInputStream(xlfile) ;
+		wob = new XSSFWorkbook(fis);
+		wos=wob.getSheet(xlsheet);
+		row= wos.getRow(rownum);
+		int celCount=row.getLastCellNum();
+		wob.close();
+		fis.close();
+		return celCount ;
+	}
+
+	public static String getCelData(String xlfile, String xlsheet, int rownum, int colNum) throws IOException{
+
+		String celData="";
+		try {
+			fis = new FileInputStream(xlfile) ;
+			wob = new XSSFWorkbook(fis);
+			wos=wob.getSheet(xlsheet);
+			row= wos.getRow(rownum);
+			cel =row.getCell(colNum);
+			DataFormatter formatter = new DataFormatter();
+			celData= formatter.formatCellValue(cel);
+			return celData;
+		}
+		catch (Exception e) {
+			System.out.print(e);
+		}
+		finally {
+			if(wob !=null) {
+				wob.close();
+			}
+			if(fis !=null) {
+				fis.close();
+			}
+		}
+		return celData ;
+	}
+
+	public static void setCelData(String xlfile, String xlsheet, int rownum, int colNum, String data) throws IOException{
+
+		try {
+			fis = new FileInputStream(xlfile) ;
+			wob = new XSSFWorkbook(fis);
+			wos=wob.getSheet(xlsheet);
+			row= wos.getRow(rownum);
+			cel =row.createCell(colNum);
+			cel.setCellValue(data);
+			fos = new FileOutputStream(xlfile);
+			wob.write(fos);
+		}
+		catch (Exception e) {
+			System.out.print(e);
+		}
+		finally {
+			if(wob !=null) {
+				wob.close();
+			}
+			if(fis !=null) {
+				fis.close();
+			}
+			if(fos !=null) {
+				fos.close();
+			}
+		}
+	}
+}

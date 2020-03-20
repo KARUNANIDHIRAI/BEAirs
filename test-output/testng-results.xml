@@ -1,17 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="55" started-at="2020-03-14T19:56:53Z" finished-at="2020-03-14T19:56:53Z">
+  <suite name="BEAirsV1" duration-ms="109715" started-at="2020-03-20T04:08:52Z" finished-at="2020-03-20T04:10:42Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="55" started-at="2020-03-14T19:56:53Z" finished-at="2020-03-14T19:56:53Z">
-      <class name="com.CtechInfoSys.BEAirs.PageObject.BELoginPage">
-        <test-method status="PASS" signature="loginPage()[pri:0, instance:com.CtechInfoSys.BEAirs.PageObject.BELoginPage@3e3047e6]" name="loginPage" duration-ms="22" started-at="2020-03-14T19:56:53Z" finished-at="2020-03-14T19:56:53Z">
+    <test name="BEAirsIBEV1 Test" duration-ms="109715" started-at="2020-03-20T04:08:52Z" finished-at="2020-03-20T04:10:42Z">
+      <class name="com.CtechInfoSys.BEAirs.TestCase.LoginPageTCs">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.CtechInfoSys.BEAirs.TestCase.LoginPageTCs@6500df86]" name="setup" is-config="true" duration-ms="20077" started-at="2020-03-20T04:08:53Z" finished-at="2020-03-20T04:09:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginPage -->
-      </class> <!-- com.CtechInfoSys.BEAirs.PageObject.BELoginPage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginTestCase1(java.lang.String, java.lang.String)[pri:0, instance:com.CtechInfoSys.BEAirs.TestCase.LoginPageTCs@6500df86]" name="LoginTestCase1" duration-ms="24482" started-at="2020-03-20T04:09:14Z" data-provider="LoginData" finished-at="2020-03-20T04:09:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr250914]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rUzYdap]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestCase1 -->
+        <test-method status="PASS" signature="LoginTestCase2(java.lang.String, java.lang.String)[pri:0, instance:com.CtechInfoSys.BEAirs.TestCase.LoginPageTCs@6500df86]" name="LoginTestCase2" duration-ms="62270" started-at="2020-03-20T04:09:39Z" data-provider="LoginData" finished-at="2020-03-20T04:10:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr250914]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rUzYdap]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestCase2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.CtechInfoSys.BEAirs.TestCase.LoginPageTCs@6500df86]" name="tearDown" is-config="true" duration-ms="781" started-at="2020-03-20T04:10:41Z" finished-at="2020-03-20T04:10:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.CtechInfoSys.BEAirs.TestCase.LoginPageTCs -->
+    </test> <!-- BEAirsIBEV1 Test -->
+  </suite> <!-- BEAirsV1 -->
 </testng-results>
