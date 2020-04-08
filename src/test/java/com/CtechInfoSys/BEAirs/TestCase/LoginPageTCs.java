@@ -48,15 +48,15 @@ public class LoginPageTCs extends BaseClass{
 	public void LoginTestCase1(String UID, String PWD) throws InterruptedException  {
 		try {
 			BELoginPage lp = new BELoginPage(driver);
-			String X = driver.getCurrentUrl();		
-			logger.info("Before Login Page URl :" + driver.getCurrentUrl());
-			lp.setUserID(UID);
-			logger.info("User Id Entered :" + UID );
-			lp.setPassword(PWD);
-			logger.info("Password Entered :" + PWD);
-			lp.loginSubmit();
-			logger.info("Submit button clicked");
-			Thread.sleep(2000);
+				String X = driver.getCurrentUrl();		
+				logger.info("Before Login Page URl :" + driver.getCurrentUrl());
+				lp.setUserID(UID);
+				logger.info("User Id Entered :" + UID );
+				lp.setPassword(PWD);
+				logger.info("Password Entered :" + PWD);
+				lp.loginSubmit();
+				logger.info("Submit button clicked");
+				Thread.sleep(2000);
 
 			if(isAlertPresent()==true) {
 				driver.switchTo().alert().accept();

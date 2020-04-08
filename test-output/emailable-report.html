@@ -9,11 +9,26 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">BEAirsV1</th></tr>
-<tr><td><a href="#t0">BEAirsIBEV1 Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">109,715</td><td></td><td></td></tr>
+<tr><td><a href="#t0">BEAirsIBEV1 Test</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">77,188</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">BEAirsV1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">BEAirsIBEV1 Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.CtechInfoSys.BEAirs.TestCase.LoginPageTCs</td><td><a href="#m0">LoginTestCase1</a></td><td rowspan="1">1584677354700</td><td rowspan="1">24482</td></tr><tr class="passedeven"><td><a href="#m1">LoginTestCase2</a></td><td rowspan="1">1584677379385</td><td rowspan="1">62270</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">BEAirsV1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">BEAirsIBEV1 Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.CtechInfoSys.BEAirs.TestCase.NewCustomerTCs</td><td><a href="#m0">NewCustomerTC1</a></td><td rowspan="1">1586036402766</td><td rowspan="1">19698</td></tr><tr><th colspan="4">BEAirsIBEV1 Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.CtechInfoSys.BEAirs.TestCase.NewCustomerTCs</td><td><a href="#m1">NewCustomerTC1</a></td><td rowspan="1">1586036369788</td><td rowspan="1">32916</td></tr></tbody>
 </table>
-<h2>BEAirsIBEV1 Test</h2><h3 id="m0">com.CtechInfoSys.BEAirs.TestCase.LoginPageTCs#LoginTestCase1</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr250914</td><td>rUzYdap</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.CtechInfoSys.BEAirs.TestCase.LoginPageTCs#LoginTestCase2</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mngr250914</td><td>rUzYdap</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>BEAirsIBEV1 Test</h2><h3 id="m0">com.CtechInfoSys.BEAirs.TestCase.NewCustomerTCs#NewCustomerTC1</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th></tr><tr class="param stripe"><td>mngr250914</td><td>rUzYdap</td><td>BAJAN</td><td>F</td><td>04081972</td><td>A4 PRIMECITY</td><td>BANGALORE</td><td>KARNATAKA</td><td>560100</td><td>213456789</td><td>TAJ3@GMAIL.COM</td><td>RAJ</td></tr><tr><th colspan="12">Exception</th></tr><tr><td colspan="12"><div class="stacktrace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Email Address Already Exist !!}
+  (Session info: chrome=80.0.3987.149): Email Address Already Exist !!
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;LAPTOP-3QC3HN03&apos;, ip: &apos;172.20.10.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\KNRAI~1\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53291}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 01dcfca926661275e7536f437c37465a
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.getPageSource(RemoteWebDriver.java:434)
+	at com.CtechInfoSys.BEAirs.TestCase.NewCustomerTCs.NewCustomerTC1(NewCustomerTCs.java:63)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.CtechInfoSys.BEAirs.TestCase.NewCustomerTCs#NewCustomerTC1</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th><th>Parameter #10</th><th>Parameter #11</th><th>Parameter #12</th></tr><tr class="param stripe"><td>mngr250914</td><td>rUzYdap</td><td>RAJAN</td><td>M</td><td>04071971</td><td>A4 PRIMECITY</td><td>BANGALORE</td><td>KARNATAKA</td><td>560100</td><td>123456789</td><td>RAJ111@GMAIL.COM</td><td>RAJ</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -6,11 +6,12 @@
 	<listeners>
 		<listener class-name="com.CtechInfoSys.BEAirs.Utilities.Reporting"/>
 	</listeners>
-
 	<test name="BEAirsIBEV1 Test">
-		<parameter name ="browser" value="chrome"/>
+<!-- 		<parameter name ="browser" value="firefox"/>  -->
+		<parameter name ="browser" value="chrome"/> 
 		<classes>
-			<class name="com.CtechInfoSys.BEAirs.TestCase.LoginPageTCs"/>
+		<!--<class name="com.CtechInfoSys.BEAirs.TestCase.LoginPageTCs"/> -->
+			<class name="com.CtechInfoSys.BEAirs.TestCase.NewCustomerTCs"/>
 		</classes>
 	</test>
 </suite>

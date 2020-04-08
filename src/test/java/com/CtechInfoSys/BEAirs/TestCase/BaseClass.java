@@ -61,7 +61,7 @@ public class BaseClass {
 		    logger.info("   " +br +" :" + "Driver Load Successfully");
 	       driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		    driver.get(URL);
-			Thread.sleep(3000);
+			Thread.sleep(5000);
 			String X = driver.getTitle();
 			  if (driver.getTitle().equals(X)) {
 				  Assert.assertTrue(true);

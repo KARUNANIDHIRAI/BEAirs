@@ -26,19 +26,6 @@ public class BELoginPage {
 	@FindBy(name="btnLogin") @CacheLookup WebElement u_0_2;
 	@FindBy(xpath="//a[@href='Logout.php']") @CacheLookup WebElement logout;
 
-/*
-	@FindBy(xpath = "//input[contains(@id,'email')]")
-	@CacheLookup 
-	WebElement email;
-	
-	@FindBy(xpath = "//input[contains(@id,'pass')]") 
-	@CacheLookup
-	WebElement pass;
-	
-	@FindBy(xpath = "//input[contains(@data-testid,'royal_login_button')]")
-	@CacheLookup
-	WebElement u_0_2;
-*/
 	public void setUserID(String UID) {
 		try {
 			email.sendKeys(UID);

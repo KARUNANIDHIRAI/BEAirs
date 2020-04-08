@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-BEAirsV1">
-              <span class="suite-name border-passed">BEAirsV1</span>
+              <span class="suite-name border-failed">BEAirsV1</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-BEAirsV1" class="hide-methods failed suite-BEAirsV1"> (hide)</a> <!-- hide-methods failed suite-BEAirsV1 -->
+                      <a href="#" panel-name="suite-BEAirsV1" class="show-methods failed suite-BEAirsV1"> (show)</a> <!-- show-methods failed suite-BEAirsV1 -->
+                    </span>
+                    <div class="method-list-content failed suite-BEAirsV1">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BEAirsV1" title="com.CtechInfoSys.BEAirs.TestCase.NewCustomerTCs" hash-for-method="NewCustomerTC1(mngr250914, rUzYdap, BAJAN, F, 04081972, A4 PRIMECITY, BANGALORE, KARNATAKA, 560100, 213456789, TAJ3...)">NewCustomerTC1(mngr250914, rUzYdap, BAJAN, F, 04081972, A4 PRIMECITY, BANGALORE, KARNATAKA, 560100, 213456789, TAJ3...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-BEAirsV1 -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,12 +116,7 @@
                     <div class="method-list-content passed suite-BEAirsV1">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-BEAirsV1" title="com.CtechInfoSys.BEAirs.TestCase.LoginPageTCs" hash-for-method="LoginTestCase1(mngr250914, rUzYdap)">LoginTestCase1(mngr250914, rUzYdap)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-BEAirsV1" title="com.CtechInfoSys.BEAirs.TestCase.LoginPageTCs" hash-for-method="LoginTestCase2(mngr250914, rUzYdap)">LoginTestCase2(mngr250914, rUzYdap)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-BEAirsV1" title="com.CtechInfoSys.BEAirs.TestCase.NewCustomerTCs" hash-for-method="NewCustomerTC1(mngr250914, rUzYdap, RAJAN, M, 04071971, A4 PRIMECITY, BANGALORE, KARNATAKA, 560100, 123456789, RAJ1...)">NewCustomerTC1(mngr250914, rUzYdap, RAJAN, M, 04071971, A4 PRIMECITY, BANGALORE, KARNATAKA, 560100, 123456789, RAJ1...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-BEAirsV1 -->
@@ -122,26 +131,51 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-BEAirsV1" class="panel BEAirsV1">
-          <div class="suite-BEAirsV1-class-passed">
+          <div class="suite-BEAirsV1-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.CtechInfoSys.BEAirs.TestCase.LoginPageTCs</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.CtechInfoSys.BEAirs.TestCase.NewCustomerTCs</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="LoginTestCase1(mngr250914, rUzYdap)">
-                  </a> <!-- LoginTestCase1(mngr250914, rUzYdap) -->
-                  <span class="method-name">LoginTestCase1</span>
-                  <span class="parameters">(mngr250914, rUzYdap)</span>
+                  <a name="NewCustomerTC1(mngr250914, rUzYdap, BAJAN, F, 04081972, A4 PRIMECITY, BANGALORE, KARNATAKA, 560100, 213456789, TAJ3...)">
+                  </a> <!-- NewCustomerTC1(mngr250914, rUzYdap, BAJAN, F, 04081972, A4 PRIMECITY, BANGALORE, KARNATAKA, 560100, 213456789, TAJ3...) -->
+                  <span class="method-name">NewCustomerTC1</span>
+                  <span class="parameters">(mngr250914, rUzYdap, BAJAN, F, 04081972, A4 PRIMECITY, BANGALORE, KARNATAKA, 560100, 213456789, TAJ3@GMAIL.COM, RAJ)</span>
+                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Email Address Already Exist !!}
+  (Session info: chrome=80.0.3987.149): Email Address Already Exist !!
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;LAPTOP-3QC3HN03&apos;, ip: &apos;172.20.10.3&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\KNRAI~1\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53291}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 01dcfca926661275e7536f437c37465a
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.getPageSource(RemoteWebDriver.java:434)
+	at com.CtechInfoSys.BEAirs.TestCase.NewCustomerTCs.NewCustomerTC1(NewCustomerTCs.java:63)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BEAirsV1-class-failed -->
+          <div class="suite-BEAirsV1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.CtechInfoSys.BEAirs.TestCase.NewCustomerTCs</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="LoginTestCase2(mngr250914, rUzYdap)">
-                  </a> <!-- LoginTestCase2(mngr250914, rUzYdap) -->
-                  <span class="method-name">LoginTestCase2</span>
-                  <span class="parameters">(mngr250914, rUzYdap)</span>
+                  <a name="NewCustomerTC1(mngr250914, rUzYdap, RAJAN, M, 04071971, A4 PRIMECITY, BANGALORE, KARNATAKA, 560100, 123456789, RAJ1...)">
+                  </a> <!-- NewCustomerTC1(mngr250914, rUzYdap, RAJAN, M, 04071971, A4 PRIMECITY, BANGALORE, KARNATAKA, 560100, 123456789, RAJ1...) -->
+                  <span class="method-name">NewCustomerTC1</span>
+                  <span class="parameters">(mngr250914, rUzYdap, RAJAN, M, 04071971, A4 PRIMECITY, BANGALORE, KARNATAKA, 560100, 123456789, RAJ111@GMAIL.COM, RAJ)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -162,7 +196,7 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;BEAirsIBEV1 Test&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.CtechInfoSys.BEAirs.TestCase.LoginPageTCs&quot;/&gt;
+      &lt;class name=&quot;com.CtechInfoSys.BEAirs.TestCase.NewCustomerTCs&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- BEAirsIBEV1 Test --&gt;
 &lt;/suite&gt; &lt;!-- BEAirsV1 --&gt;
@@ -204,18 +238,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'LoginTestCase2')
-data.setCell(0, 2, 'com.CtechInfoSys.BEAirs.TestCase.LoginPageTCs')
-data.setCell(0, 3, 62270);
+data.setCell(0, 1, 'NewCustomerTC1')
+data.setCell(0, 2, 'com.CtechInfoSys.BEAirs.TestCase.NewCustomerTCs')
+data.setCell(0, 3, 32916);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'LoginTestCase1')
-data.setCell(1, 2, 'com.CtechInfoSys.BEAirs.TestCase.LoginPageTCs')
-data.setCell(1, 3, 24482);
+data.setCell(1, 1, 'NewCustomerTC1')
+data.setCell(1, 2, 'com.CtechInfoSys.BEAirs.TestCase.NewCustomerTCs')
+data.setCell(1, 3, 19698);
 window.suiteTableData['BEAirsV1']= { tableData: data, tableDiv: 'times-div-BEAirsV1'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 52 seconds</span>
               <div id="times-div-BEAirsV1">
               </div> <!-- times-div-BEAirsV1 -->
             </div> <!-- times-div -->
@@ -241,22 +275,24 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.CtechInfoSys.BEAirs.TestCase.LoginPageTCs</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.CtechInfoSys.BEAirs.TestCase.NewCustomerTCs</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setup(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">LoginTestCase1(mngr250914, rUzYdap)</span>
-                <span class="method-start">21574 ms</span>
+                <span class="method-name">NewCustomerTC1(mngr250914, rUzYdap, RAJAN, M, 04071971, A4 PRIMECITY, BANGALORE, KARNATAKA, 560100, 123456789, RAJ1...)</span>
+                <span class="method-start">23274 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">LoginTestCase2(mngr250914, rUzYdap)</span>
-                <span class="method-start">46259 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">NewCustomerTC1(mngr250914, rUzYdap, BAJAN, F, 04081972, A4 PRIMECITY, BANGALORE, KARNATAKA, 560100, 213456789, TAJ3...)</span>
+                <span class="method-start">56252 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">108533 ms</span>
+                <span class="method-start">75970 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

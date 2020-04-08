@@ -7,14 +7,13 @@
   <test thread-count="5" name="BEAirsIBEV1 Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.CtechInfoSys.BEAirs.TestCase.LoginPageTCs">
+      <class name="com.CtechInfoSys.BEAirs.TestCase.NewCustomerTCs">
         <methods>
+          <include name="NewCustomerTC1" invocation-numbers="1"/>
           <include name="setup"/>
-          <include name="LoginTestCase2" invocation-numbers="0"/>
-          <include name="LoginTestCase1" invocation-numbers="0"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.CtechInfoSys.BEAirs.TestCase.LoginPageTCs -->
+      </class> <!-- com.CtechInfoSys.BEAirs.TestCase.NewCustomerTCs -->
     </classes>
   </test> <!-- BEAirsIBEV1 Test(failed) -->
 </suite> <!-- Failed suite [BEAirsV1] -->

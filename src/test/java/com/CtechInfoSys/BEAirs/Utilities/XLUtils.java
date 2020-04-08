@@ -9,6 +9,7 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.annotations.DataProvider;
 
 public class XLUtils {
 	public static FileInputStream fis;
@@ -95,4 +96,31 @@ public class XLUtils {
 			}
 		}
 	}
+	
+
+	public String [][] getXLData(String XLSheetName){
+		System.out.println("enter in XLutils: getXLData");
+		try {
+			//logger.info("String [][] getData() : getting data from excel sheet" );
+			String dataFilePath=System.getProperty("user.dir")+"/src/test/java/com/CtechInfoSys/BEAirs/TestData/BEAirsTestData.xlsx";
+			int rowCount=getRowCount(dataFilePath, XLSheetName);
+			int colCount=getCelCount(dataFilePath, XLSheetName, 1);
+			//logger.info("Total Row in Datasheet"+ rowCount +": Total Colom in Datasheet :" + colCount );
+			System.out.println("Total No.of Col in AddCustomer File:" +colCount);
+			String loginData [][] = new String[rowCount][colCount];
+			for(int i=1;i<=rowCount;i++) {
+				for(int j=0;j<colCount;j++) {
+					loginData[i-1][j]=XLUtils.getCelData(dataFilePath, XLSheetName, i, j);
+				}
+			}
+			System.out.println("String [][] getData() : Read Excel data Succesfull : " );
+			return loginData;
+		}
+		catch (Exception e) {
+			System.out.println("String [][] getData() : getting Excel data sheet Error : " + e);
+			String dataLogin[][]= new String[0][0];
+			return dataLogin;
+			
+		}
+	}	
 }

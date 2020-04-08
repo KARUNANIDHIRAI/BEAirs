@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="BEAirsV1" duration-ms="109715" started-at="2020-03-20T04:08:52Z" finished-at="2020-03-20T04:10:42Z">
+  <suite name="BEAirsV1" duration-ms="77188" started-at="2020-04-04T21:39:06Z" finished-at="2020-04-04T21:40:23Z">
     <groups>
     </groups>
-    <test name="BEAirsIBEV1 Test" duration-ms="109715" started-at="2020-03-20T04:08:52Z" finished-at="2020-03-20T04:10:42Z">
-      <class name="com.CtechInfoSys.BEAirs.TestCase.LoginPageTCs">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.CtechInfoSys.BEAirs.TestCase.LoginPageTCs@6500df86]" name="setup" is-config="true" duration-ms="20077" started-at="2020-03-20T04:08:53Z" finished-at="2020-03-20T04:09:13Z">
+    <test name="BEAirsIBEV1 Test" duration-ms="77188" started-at="2020-04-04T21:39:06Z" finished-at="2020-04-04T21:40:23Z">
+      <class name="com.CtechInfoSys.BEAirs.TestCase.NewCustomerTCs">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.CtechInfoSys.BEAirs.TestCase.NewCustomerTCs@42dafa95]" name="setup" is-config="true" duration-ms="20004" started-at="2020-04-04T21:39:06Z" finished-at="2020-04-04T21:39:26Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="LoginTestCase1(java.lang.String, java.lang.String)[pri:0, instance:com.CtechInfoSys.BEAirs.TestCase.LoginPageTCs@6500df86]" name="LoginTestCase1" duration-ms="24482" started-at="2020-03-20T04:09:14Z" data-provider="LoginData" finished-at="2020-03-20T04:09:39Z">
+        <test-method status="PASS" signature="NewCustomerTC1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CtechInfoSys.BEAirs.TestCase.NewCustomerTCs@42dafa95]" name="NewCustomerTC1" duration-ms="32916" started-at="2020-04-04T21:39:29Z" data-provider="AddNewCustomer" finished-at="2020-04-04T21:40:02Z">
           <params>
             <param index="0">
               <value>
@@ -30,11 +30,61 @@
                 <![CDATA[rUzYdap]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[RAJAN]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[M]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[04071971]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[A4 PRIMECITY]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[BANGALORE]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[KARNATAKA]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[560100]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[123456789]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[RAJ111@GMAIL.COM]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[RAJ]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginTestCase1 -->
-        <test-method status="PASS" signature="LoginTestCase2(java.lang.String, java.lang.String)[pri:0, instance:com.CtechInfoSys.BEAirs.TestCase.LoginPageTCs@6500df86]" name="LoginTestCase2" duration-ms="62270" started-at="2020-03-20T04:09:39Z" data-provider="LoginData" finished-at="2020-03-20T04:10:41Z">
+        </test-method> <!-- NewCustomerTC1 -->
+        <test-method status="FAIL" signature="NewCustomerTC1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.CtechInfoSys.BEAirs.TestCase.NewCustomerTCs@42dafa95]" name="NewCustomerTC1" duration-ms="19698" started-at="2020-04-04T21:40:02Z" data-provider="AddNewCustomer" finished-at="2020-04-04T21:40:22Z">
           <params>
             <param index="0">
               <value>
@@ -46,15 +96,119 @@
                 <![CDATA[rUzYdap]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[BAJAN]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[F]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[04081972]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[A4 PRIMECITY]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[BANGALORE]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[KARNATAKA]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[560100]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[213456789]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[TAJ3@GMAIL.COM]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[RAJ]]>
+              </value>
+            </param>
           </params>
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[unexpected alert open: {Alert text : Email Address Already Exist !!}
+  (Session info: chrome=80.0.3987.149): Email Address Already Exist !!
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3QC3HN03', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\KNRAI~1\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53291}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 01dcfca926661275e7536f437c37465a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Email Address Already Exist !!}
+  (Session info: chrome=80.0.3987.149): Email Address Already Exist !!
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-3QC3HN03', ip: '172.20.10.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\KNRAI~1\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:53291}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 01dcfca926661275e7536f437c37465a
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+at org.openqa.selenium.remote.RemoteWebDriver.getPageSource(RemoteWebDriver.java:434)
+at com.CtechInfoSys.BEAirs.TestCase.NewCustomerTCs.NewCustomerTC1(NewCustomerTCs.java:63)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginTestCase2 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.CtechInfoSys.BEAirs.TestCase.LoginPageTCs@6500df86]" name="tearDown" is-config="true" duration-ms="781" started-at="2020-03-20T04:10:41Z" finished-at="2020-03-20T04:10:42Z">
+        </test-method> <!-- NewCustomerTC1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.CtechInfoSys.BEAirs.TestCase.NewCustomerTCs@42dafa95]" name="tearDown" is-config="true" duration-ms="869" started-at="2020-04-04T21:40:22Z" finished-at="2020-04-04T21:40:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.CtechInfoSys.BEAirs.TestCase.LoginPageTCs -->
+      </class> <!-- com.CtechInfoSys.BEAirs.TestCase.NewCustomerTCs -->
     </test> <!-- BEAirsIBEV1 Test -->
   </suite> <!-- BEAirsV1 -->
 </testng-results>
