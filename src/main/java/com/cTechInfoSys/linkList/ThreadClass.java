@@ -8,7 +8,5 @@ public class ThreadClass {
 		h1.start();
 		h2.start();
 		System.out.println("Raj Kumar Rai");
-		
 	}
-
 }

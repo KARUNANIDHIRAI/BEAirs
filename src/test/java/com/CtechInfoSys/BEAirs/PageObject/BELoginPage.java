@@ -14,13 +14,11 @@ public class BELoginPage {
 		PageFactory.initElements(rDriver,this);
 	}
 
-
-/*	@FindBy(name="email")   @CacheLookup WebElement email;
+	/*	@FindBy(name="email")   @CacheLookup WebElement email;
 	@FindBy(name="pass") @CacheLookup WebElement pass;
 	@FindBy(id="u_0_b") @CacheLookup WebElement u_0_2;
 
 */
-	
 	@FindBy(name="uid") @CacheLookup WebElement email;
 	@FindBy(name="password") @CacheLookup WebElement pass;
 	@FindBy(name="btnLogin") @CacheLookup WebElement u_0_2;

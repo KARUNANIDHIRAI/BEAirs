@@ -17,7 +17,6 @@ public class NewCustomer {
 	@CacheLookup 
 	WebElement linkNewCustomer;
 	
-
 	@FindBy(how=How.XPATH, using="//input[contains(@name,'name')]")
 	@CacheLookup 
 	WebElement Name;
@@ -112,7 +111,6 @@ public class NewCustomer {
 	public void clickSubmitBtn() {
 		submit.click();
 	}
-
 	public void clickResetBtn() {
 		reset.click();
 		Name.sendKeys("");
@@ -126,5 +124,4 @@ public class NewCustomer {
 		password.sendKeys("");
 
 	}
-
 }

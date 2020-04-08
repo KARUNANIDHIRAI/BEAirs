@@ -6,5 +6,4 @@ public class CleanUpFiles extends TimerTask{
 	public void run() {
 		System.out.println("Files cleanup start");
 	}
-
 }

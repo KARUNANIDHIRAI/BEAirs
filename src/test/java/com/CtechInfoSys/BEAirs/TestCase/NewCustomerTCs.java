@@ -78,7 +78,7 @@ public class NewCustomerTCs extends BaseClass {
 			logger.info("Catch block --> Test Case Failed.....");
 		}
 	}
-	
+
 	@DataProvider(name="AddNewCustomer")
 	String [][] getData(){
 		try {

@@ -3,9 +3,7 @@ package com.cTechInfoSys.Timer;
 import java.sql.Date;
 import java.util.Timer;
 import java.util.TimerTask;
-
 public class RunTimer {
-
 	public static void main(String[] args) {
 
 		TimerTask tm1 = new EmailTo();
@@ -19,7 +17,6 @@ public class RunTimer {
 		time.schedule(tm1, dtFirst);
 		System.out.println("timer task has scheduled...");
 		time.cancel();
-		
 	}
 
 }

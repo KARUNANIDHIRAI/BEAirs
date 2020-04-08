@@ -9,6 +9,7 @@ public class Stake {
     public Stake() {
         tos = -1;
     }
+
     
     /* push an item onto the stack */
     int push(int item){

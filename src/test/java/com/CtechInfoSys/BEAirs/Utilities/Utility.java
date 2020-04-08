@@ -1,7 +1,6 @@
 package com.CtechInfoSys.BEAirs.Utilities;
 
 import org.apache.commons.lang3.RandomStringUtils;
-
 public class Utility {
 	public static String getRandomString(int lenth) {
 		String randomString = RandomStringUtils.randomAlphabetic(lenth);
@@ -11,5 +10,4 @@ public class Utility {
 		String randomString = RandomStringUtils.randomNumeric(lenth);
 		return randomString;
 	}
-
 }
